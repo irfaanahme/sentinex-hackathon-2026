@@ -1,0 +1,35 @@
+ 
+R4. Demand Forecasting for the New Product With No History 
+Real-world pain: Forecasting a product that has sold for two years is a solved textbook problem. 
+The real money is in the new launch — the SKU with zero sales history, where a bad guess 
+means either dead stock in a warehouse or a sold-out launch. 
+The problem: Forecast ﬁrst-8-weeks demand for products that have no sales history at all, 
+using only their attributes and the behaviour of similar past launches. 
+What we provide: 
+ 
+ 3 years of weekly sales for ~1,200 discontinued/mature SKUs, including each one's own 
+launch curve 
+ Rich attributes: category, sub-category, colour, material, price band, brand tier, launch 
+month, marketing spend ﬂag 
+ 150 "new" SKUs with attributes only, and hidden actual ﬁrst-8-week sales 
+ Store cluster deﬁnitions and a holiday calendar 
+Assumptions students may make: 
+ 
+ Analogous past products are a legitimate proxy — teams deﬁne the similarity logic 
+ Marketing spend, if ﬂagged, is applied uniformly in the launch window 
+ Price stays constant during the ﬁrst 8 weeks 
+ No competitor, weather, or social-media data exists 
+Desired output: 
+ 
+1. A weekly forecast for each new SKU, with a prediction interval, not just a point number — 
+buyers need the range 
+2. evaluate. py score = weighted MAPE / WAPE on the hidden actuals, plus a calibration check 
+on the intervals 
+3. A recommended initial buy quantity per SKU that explicitly trades oﬀstock-out cost vs. 
+markdown cost (teams state both costs) 
+4. An explanation of which attributes drove each forecast — a buyer must be able to argue 
+with the number 
+5. A named list of the 10 SKUs the model is least conﬁdent about, and why 
+ 
+Stretch: allocate the buy quantity across store clusters rather than one national number. 
+ 

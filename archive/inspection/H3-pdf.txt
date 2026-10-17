@@ -1,0 +1,40 @@
+ 
+H3. Predicting the 30-Day Readmission — And Doing Something About It 
+Real-world pain: A meaningful share of discharged patients bounce back within 30 days. Many 
+of those returns were preventable with a phone call, a medication check, or a follow-up 
+appointment. But a hospital's care-coordination team can only reach a handful of patients a 
+day. 
+The problem: Predict 30-day readmission risk at the moment of discharge, and — more 
+importantly — turn that risk into a ranked, resource-constrained intervention list. 
+What we provide: 
+ 
+ 25k synthetic discharge records: demographics, primary and secondary diagnoses (coded), 
+length of stay, prior admissions, procedures, discharge disposition, medication count, key 
+lab values 
+ Deliberate real-world messiness: ~15% missing labs, inconsistent coding, some duplicate 
+patient records 
+ Hidden 30-day readmission outcome 
+ A stated constraint: the care team can call only 50 patients per week 
+Assumptions students may make: 
+ 
+ Post-discharge behaviour (whether they ﬁlled the prescription, attended follow-up) is 
+unobserved 
+ Socioeconomic and distance-from-hospital data is unavailable 
+ Some readmissions are planned/unavoidable — teams should reason about whether these 
+should be excluded 
+ Missingness may itself be informative (a lab not ordered tells you something) 
+Desired output: 
+ 
+1. A calibrated risk score per patient — calibration is explicitly scored, because a "70%" that 
+means 30% is useless for prioritisation 
+2. evaluate. py score = AUC-PR plus recall@50 (the metric that respects the real constraint), 
+plus a calibration error term 
+3. Per-patient drivers of risk, expressed as something a nurse can act on ("11 medications, no 
+follow-up scheduled, third admission in 6 months") 
+4. A bias audit across age, sex, and payer type — required, not optional. Report performance 
+gaps and describe mitigation 
+5. A one-page "Monday morning call list" for the care team, and a rough estimate of 
+readmissions averted 
+ 
+Stretch: recommend a speciﬁc intervention type per patient (pharmacist call vs. home visit vs. 
+appointment booking) and justify the mapping. 

@@ -1,0 +1,338 @@
+[
+  {
+    "label": "R1",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/R1.%20The%20Phantom%20Stock-Out%20Detector.pdf",
+    "path": "archive/inspection/R1.pdf",
+    "sha256": "39e96e1b16e1bf9e3643c2bc35972d2c13a5d873bddd2e19913af6cf37dee440",
+    "bytes": 173700,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2010 Trial",
+      "/CreationDate": "D:20261003140217+05'30'",
+      "/ModDate": "D:20261003140217+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2010 Trial"
+    },
+    "text_sha256": "1b962857ec0a940d517ddad4705d84fa97b11fdc5ef87ecd9f96e0eaa478926c"
+  },
+  {
+    "label": "R2",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/R2.%20The%20Returns%20Fraud%20vs.%20Genuine%20Grievance%20Sorter.pdf",
+    "path": "archive/inspection/R2.pdf",
+    "sha256": "c05a722a8ae2668b0983f5cb130c53d0cfd9b8f2a14f2d67af0bec9a286c4cb9",
+    "bytes": 249346,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2010 Trial",
+      "/CreationDate": "D:20261003140416+05'30'",
+      "/ModDate": "D:20261003140416+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2010 Trial"
+    },
+    "text_sha256": "de57d7450c3e0fb5ffb215fa60769a9f9c786cf2327d70a1648d98b0b7c2a189"
+  },
+  {
+    "label": "R3",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/R3.%20The%20Conversational%20Shopping%20Assistant%20That%20Doesn%27t%20Lie_9.pdf",
+    "path": "archive/inspection/R3.pdf",
+    "sha256": "430ef52ed1cc68a1cd721acb6a8f381342dda853e5d84c042f0e2ce23baea0c8",
+    "bytes": 173558,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2010 Trial",
+      "/CreationDate": "D:20261003140540+05'30'",
+      "/ModDate": "D:20261003140540+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2010 Trial"
+    },
+    "text_sha256": "2ca98df90eb00117178cde59adc194a360136a60e5912c0d524eee018a18b1a1"
+  },
+  {
+    "label": "R4",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/R4.%20Demand%20Forecasting%20for%20the%20New%20Product%20With%20No%20History_1.pdf",
+    "path": "archive/inspection/R4.pdf",
+    "sha256": "214eb4f2c8d4d19bbfffe5f11f444583fb10f23ddc80f45c5f73878fec94d1ef",
+    "bytes": 101562,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2021",
+      "/CreationDate": "D:20261004135929+05'30'",
+      "/ModDate": "D:20261004135929+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2021"
+    },
+    "text_sha256": "8fd66123405613365c9b7330026a0f1627201ddba604b19463cca39bec0c9361"
+  },
+  {
+    "label": "R5",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/R5.Turning%20Store%20Chatter%20Into%20Action.pdf",
+    "path": "archive/inspection/R5.pdf",
+    "sha256": "644d1481de5452be0292afe7f30cf7f88bc8887ab6b61493cb0f367386867ec0",
+    "bytes": 174778,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2010 Trial",
+      "/CreationDate": "D:20261003141155+05'30'",
+      "/ModDate": "D:20261003141155+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2010 Trial"
+    },
+    "text_sha256": "58cf47fc5bb9d7912e3992a580a1f98f9ec1624bba250d4249d086e12fec0235"
+  },
+  {
+    "label": "H1",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/H1.%20OPD%20Triage%20Assistant%20for%20an%20Overloaded%20Government%20Hospital_6.pdf",
+    "path": "archive/inspection/H1.pdf",
+    "sha256": "32095cfff47e373d7851edfcc5bb2a3a7b46980d08b62be0659d9f209a9e9e43",
+    "bytes": 423919,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2010 Trial",
+      "/CreationDate": "D:20261003141252+05'30'",
+      "/ModDate": "D:20261003141252+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2010 Trial"
+    },
+    "text_sha256": "bd2fd305207ab2bfa0a1422f54b3e864dc32da635e9f064c52bc35ff8d1f423d"
+  },
+  {
+    "label": "H2",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/H2.Discharge%20Summary%20to%20Patient-Understandable%20Care%20Plan_6.pdf",
+    "path": "archive/inspection/H2.pdf",
+    "sha256": "28c9d02437966f85992e8bcb231cc486cad25751a04405f7749d02325a0395e4",
+    "bytes": 243063,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2010 Trial",
+      "/CreationDate": "D:20261003141356+05'30'",
+      "/ModDate": "D:20261003141356+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2010 Trial"
+    },
+    "text_sha256": "8f82d63d6eda5693942b3f5e98ac60bb1aff8a322a4f3b0390d07d5459196eed"
+  },
+  {
+    "label": "H3",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/H3.%20Predicting%20the%2030-Day%20Readmission-%20And%20Doing%20Something%20About%20It.pdf",
+    "path": "archive/inspection/H3.pdf",
+    "sha256": "87dfedd3e74abebf9c1af67f3f15a2196b8bf3f1983ccd68fcc09744ec5b5dd1",
+    "bytes": 104545,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2021",
+      "/CreationDate": "D:20261004140035+05'30'",
+      "/ModDate": "D:20261004140035+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2021"
+    },
+    "text_sha256": "230d8aaa15e34a72bb322094337349e34965469d93abf76ad5a492ebd297c121"
+  },
+  {
+    "label": "H4",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/H4.%20The%20Medication%20Safety%20Second%20Pair%20of%20Eyes_2.pdf",
+    "path": "archive/inspection/H4.pdf",
+    "sha256": "e67d6602f705c848c5101a61b0b687602f9d23c17c314be3ddeb6b6bd9144de7",
+    "bytes": 201845,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2010 Trial",
+      "/CreationDate": "D:20261003141530+05'30'",
+      "/ModDate": "D:20261003141530+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2010 Trial"
+    },
+    "text_sha256": "53910d6a2dc8d6f68a20a0b5d20f2bd8f67cdd81d7ea0b1e564b6f7dc58ab8fa"
+  },
+  {
+    "label": "H5",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/H5.%20Frontline%20Health-Worker%20Companion%20for%20Low-Connectivity%20Areas_2.pdf",
+    "path": "archive/inspection/H5.pdf",
+    "sha256": "893d8dadfddd8e7e149edcfc399265c25bb52df45de09d299547be1a2c8c4e32",
+    "bytes": 244212,
+    "pages": 1,
+    "metadata": {
+      "/Author": "nimaiuser",
+      "/Creator": "Microsoft\u00ae Word 2010 Trial",
+      "/CreationDate": "D:20261003141608+05'30'",
+      "/ModDate": "D:20261003141608+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2010 Trial"
+    },
+    "text_sha256": "c5dcb39f223d81838238e4d625d31cb71315563fe233a4bc53181e18e6c241a3"
+  },
+  {
+    "label": "BFSI11",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/Smart%20Data%20Masking%20System%20for%20PII%20Protection_1.pdf",
+    "path": "archive/inspection/BFSI11.pdf",
+    "sha256": "623fd17e8cae50f355860e1f7ee6a5b0dae736f324ffa00df704f97a767d5964",
+    "bytes": 47835,
+    "pages": 1,
+    "metadata": {
+      "/Author": "Lavanya Dadi",
+      "/Creator": "Microsoft\u00ae Word 2021",
+      "/CreationDate": "D:20261004141026+05'30'",
+      "/ModDate": "D:20261004141026+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2021"
+    },
+    "text_sha256": "8a3f070f9b3d921f369659d75f3726e10ac30abd3bdd5a6be6d0a6f127a550c3"
+  },
+  {
+    "label": "BFSI12",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/Intelligent%20Life%20Insurance%20Needs%20Finder%20%26%20Digital%20Advisory%20Platform_1.pdf",
+    "path": "archive/inspection/BFSI12.pdf",
+    "sha256": "022b1a0399f8fc838f09fa3905cc2368da1a11554849192f3efa3307c669c4bc",
+    "bytes": 105461,
+    "pages": 1,
+    "metadata": {
+      "/Author": "Lavanya Dadi",
+      "/Creator": "Microsoft\u00ae Word 2021",
+      "/CreationDate": "D:20261004141109+05'30'",
+      "/ModDate": "D:20261004141109+05'30'",
+      "/Producer": "Microsoft\u00ae Word 2021"
+    },
+    "text_sha256": "9e76bfc8a43c7e60e9ce07a0e350fddbd073ddb37ccc2ec4df0f34d0f7e8bf55"
+  },
+  {
+    "label": "R1",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission.pptx",
+    "path": "archive/inspection/R1.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "R2",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_1.pptx",
+    "path": "archive/inspection/R2.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "R3",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/TalentAP-MegaHackathon2026_Idea_Submission_Template_Final%20%282%29%20%281%29_3.pptx",
+    "path": "archive/inspection/R3.pptx",
+    "sha256": "4230ffae3937bb20c664b4f253216ef3a0c9626dd01d35159d64e254de1495ae",
+    "bytes": 1155175,
+    "slides": 6,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>Presentation</dc:title><dc:creator>Walnut Exporter</dc:creator><cp:lastModifiedBy>nimaiuser</cp:lastModifiedBy><cp:revision>4</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-10-02T07:24:08Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-02T08:09:59Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "cbbfb0f34a98e00fa36ef5bd0b45bcc98ed65edc1b7ebef5c58aa210831c9784"
+  },
+  {
+    "label": "R4",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_2.pptx",
+    "path": "archive/inspection/R4.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "R5",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_3.pptx",
+    "path": "archive/inspection/R5.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "H1",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_4.pptx",
+    "path": "archive/inspection/H1.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "H2",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_5.pptx",
+    "path": "archive/inspection/H2.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "H3",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_6.pptx",
+    "path": "archive/inspection/H3.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "H4",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_7.pptx",
+    "path": "archive/inspection/H4.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "H5",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_8.pptx",
+    "path": "archive/inspection/H5.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "BFSI11",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_9.pptx",
+    "path": "archive/inspection/BFSI11.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  },
+  {
+    "label": "BFSI12",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_10.pptx",
+    "path": "archive/inspection/BFSI12.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220,
+    "slides": 7,
+    "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>PptxGenJS Presentation</dc:title><dc:subject>PptxGenJS Presentation</dc:subject><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Guest User</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-08-06T14:25:19Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-08T12:28:30Z</dcterms:modified></cp:coreProperties>",
+    "text_sha256": "72eb60edbd207220f900d9406a35df055976dbcb6bd54de58e2f81851f2777c4"
+  }
+]

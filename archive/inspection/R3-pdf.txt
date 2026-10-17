@@ -1,0 +1,35 @@
+ 
+ 
+R3. The Conversational Shopping Assistant That Doesn't Lie 
+Real-world pain: Retailers are rushing to put chatbots on product catalogues. Most of them 
+conﬁdently invent products, prices, and return policies. A hallucinated price is a legal and trust 
+problem, not a cosmetic one. 
+The problem: Build a grounded product-discovery assistant over a ﬁxed catalogue that answers 
+natural shopper questions and refuses to answer when the catalogue doesn't support it. 
+What we provide: 
+ 
+ A catalogue of 5,000 products: title, description, attributes, price, stock status, category, 
+ratings 
+ A policy document (returns, shipping, warranty) as plain text 
+ 150 test questions with hidden expected behaviour, deliberately including: answerable 
+questions, ambiguous questions, out-of-catalogue questions ("do you sell iPhones?"), and 
+trap questions ("what's the price of the blue running shoe?" when three exist) 
+ A small embedding model and small instruct model, pre-cached for oﬄine use 
+Assumptions students may make: 
+ 
+ Catalogue is the single source of truth; nothing outside it may be asserted 
+ Prices and stock are current as of the snapshot 
+ No user account, order history, or payment integration exists 
+ Shoppers write short, ungrammatical, code-mixed queries 
+Desired output: 
+ 
+1. A working chat interface (notebook, CLI, or simple web page — all score equally) 
+2. Every factual claim must carry a citation to a product ID or policy section 
+ 
+3. An explicit refusal / clariﬁcation path — teams are scored on correctly saying "I don't have 
+that" and on asking a disambiguating question rather than guessing 
+4. evaluate. py score = groundedness (no unsupported claims), answer helpfulness, and 
+refusal accuracy — with hallucinated prices carrying a heavy penalty 
+5. A latency and token-cost report per query, since the budget is ﬁxed and equal 
+Stretch: handle a multi-turn budget constraint ("under ₹2,000, and I already said I want 
+cotton"). 

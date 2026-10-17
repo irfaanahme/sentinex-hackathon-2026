@@ -1,0 +1,65 @@
+ROUND 1 REVIEW
+AI Frontier Challenge 2026 Round 1 Submission
+Team Name
+[Enter Team Name]
+Team Leader
+[Enter Leader Name]
+Track
+[Select Track]
+Date
+8
+/7/2026
+
+Use Case
+Problem Statement
+• Describe the problem or pain point you are addressing
+• Who are the affected users/stakeholders?
+• What is the current impact or consequence?
+Market Opportunity
+• Market size and growth potential
+• Target audience demographics
+• Competitive landscape
+
+Proposed Solution
+Solution Overview
+• What is your solution?
+• How does it address the problem?
+• What are the key features and benefits?
+• Why is your approach unique?
+[Insert visual mockup, flowchart, or prototype image here]
+
+Design Steps & Architecture
+Technical Implementation
+1. [Step 1 - Description]
+2. [Step 2 - Description]
+3. [Step 3 - Description]
+4. [Step 4 - Description]
+Architecture Diagram
+[Insert architecture diagram, system design, or tech stack visualization]
+
+Challenges & Mitigation
+Challenge 1
+Problem: [Describe challenge]
+Mitigation: [How you addressed/will address it]
+Challenge 2
+Problem: [Describe challenge]
+Mitigation: [How you addressed/will address it]
+Challenge 3
+Problem: [Describe challenge]
+Mitigation: [How you addressed/will address it]
+
+Unique Selling Proposition (USP)
+Key Differentiator 1
+[What makes your solution unique in this aspect?]
+Key Differentiator 2
+[What makes your solution unique in this aspect?]
+Key Differentiator 3
+[What makes your solution unique in this aspect?]
+Competitive Advantage Summary
+• Why customers should choose your solution
+• Your competitive edge vs. existing alternatives
+
+Demo & POC Video
+Live Demonstration
+▶
+[Insert Demo Video / POC Video Link or Embed]

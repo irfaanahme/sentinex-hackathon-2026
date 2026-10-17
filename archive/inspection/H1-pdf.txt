@@ -1,0 +1,39 @@
+PART B — HEALTHCARE PROBLEM STATEMENTS 
+ 
+ 
+H1. OPD Triage Assistant for an Overloaded Government Hospital 
+Real-world pain: An outpatient department sees 800 walk-ins a day with two doctors. Patients 
+are seen ﬁrst -come-ﬁrst-served, so a person with chest pain waits behind 40 people with mild 
+fever. The triage decision today is made by an overworked nurse in 30 seconds. 
+The problem: From a short intake form and a free-text complaint, assign a triage priority and 
+recommend the right department — safely. 
+What we provide: 
+ 
+ 30k synthetic intake records: age, sex, vitals (BP, pulse, temp, SpO2), free-text chief 
+complaint, known conditions, medication list 
+ Complaint text written the way patients actually speak, translated/transliterated across 
+languages 
+ A published 5-level triage scale with clinical deﬁnitions (an ESI-style rubric) in the domain 
+primer 
+ Hidden labels: correct triage level and correct department, plus a ﬂag for the ~4% of cases 
+that are true emergencies 
+Assumptions students may make: 
+ 
+ No labs, imaging, or ECG available at triage — only the intake form 
+ Vitals may be missing or mis-entered (teams must handle 0 BP, temp of 96°C) 
+ Patients may under-report or over-report symptoms 
+ Nurse has ≤60 seconds per patient, so the interface must be near-instant 
+Desired output: 
+ 
+1. A triage level (1–5), recommended department, and the red-ﬂag symptoms detected 
+2. Asymmetric safety is the core requirement: under-triaging a true emergency must be 
+penalised ~20× more than over-triaging a mild case. evaluate. py implements this — teams 
+that optimise plain accuracy will score badly, and discovering this is part of the learning 
+3. A mandatory hard-coded escalation rule layer that overrides the model on critical vitals 
+(teams must show these rules) 
+4. Sensitivity/recall on the hidden true-emergency set, reported separately and prominently 
+ 
+5. An abstention mechanism: the system may say "cannot assess — send to nurse now" and is 
+rewarded for using it appropriately 
+Stretch: estimate expected wait-time reduction versus the current ﬁrst-come-ﬁrst-served 
+baseline using the provided arrival log.

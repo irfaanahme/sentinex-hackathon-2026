@@ -1,0 +1,41 @@
+ 
+H5. Frontline Health-Worker Companion for Low-Connectivity Areas 
+Real-world pain: An ASHA or ANM worker visits villages with a phone, patchy 2G, and 
+responsibility for maternal, child, and chronic-disease follow-ups across hundreds of 
+households. She needs answers from a protocol book she cannot carry, in her own language, 
+oflen with no signal at all. 
+The problem: Build an assistant that answers frontline health-worker questions from oﬃcial 
+protocol documents, works oﬄine or on very poor connectivity, and knows when to escalate to 
+a doctor. 
+What we provide: 
+ 
+ A corpus of simpliﬁed public-health protocol documents: antenatal care schedule, 
+immunisation schedule, danger signs in pregnancy and newborns, malnutrition screening, 
+hypertension and diabetes follow-up, ORS and fever management 
+ 200 realistic worker questions in code-mixed language, with hidden expected answers and 
+hidden "must escalate" ﬂags 
+ A small oﬄine-capable language model and embedding model, pre-cached 
+ A synthetic household register of 500 families with due-date and immunisation-due 
+information 
+Assumptions students may make: 
+ 
+ Device is a low-end Android phone; assume tight memory and no GPU 
+ Connectivity may be zero for hours — the core path must work oﬄine 
+ The worker is a trained paramedical professional, not a doctor, and not a layperson 
+ No integration with any government system exists 
+Desired output: 
+ 
+1. A working question-answering ﬂow grounded strictly in the provided protocols, with the 
+protocol section cited in every answer 
+2. A demonstrated oﬄine mode, plus a measured footprint: model size, memory use, and 
+response time on a CPU. This is scored — eﬃciency is a ﬁrst-class result here, not an 
+aflerthought 
+3. A hard-coded danger-sign escalation layer that ﬁres before any model reasoning ("if 
+bleeding in third trimester → refer immediately"). evaluate. py checks 100% detection on 
+the escalation set — anything less than perfect fails this criterion 
+4. A daily visit list generated from the household register: who is due for what, prioritised 
+5. Refusal behaviour on out-of-scope questions ("what dose of this antibiotic?") with a clear 
+redirect to a doctor 
+Stretch: voice input in one Indian language, and a sync-when-connected queue for collected 
+data. 
+ 

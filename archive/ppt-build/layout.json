@@ -1,0 +1,653 @@
+[
+  {
+    "id": "y90nupkv",
+    "shapes": [
+      {
+        "id": "2",
+        "name": "Text 0",
+        "text": "ROUND 1 REVIEW",
+        "position": {
+          "left": 48,
+          "top": 115.2,
+          "width": 864,
+          "height": 57.6
+        }
+      },
+      {
+        "id": "3",
+        "name": "Text 1",
+        "text": "AI Frontier Challenge 2026 Round 1 Submission",
+        "position": {
+          "left": 48,
+          "top": 182.4,
+          "width": 864,
+          "height": 38.4
+        }
+      },
+      {
+        "id": "4",
+        "name": "Text 2",
+        "text": "Team Name",
+        "position": {
+          "left": 96,
+          "top": 268.8,
+          "width": 336,
+          "height": 28.8
+        }
+      },
+      {
+        "id": "5",
+        "name": "Text 3",
+        "text": "[Enter Team Name]",
+        "position": {
+          "left": 96,
+          "top": 302.40000000000003,
+          "width": 336,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "6",
+        "name": "Text 4",
+        "text": "Team Leader",
+        "position": {
+          "left": 528,
+          "top": 268.8,
+          "width": 336,
+          "height": 28.8
+        }
+      },
+      {
+        "id": "7",
+        "name": "Text 5",
+        "text": "[Enter Leader Name]",
+        "position": {
+          "left": 528,
+          "top": 302.40000000000003,
+          "width": 336,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "8",
+        "name": "Text 6",
+        "text": "Track",
+        "position": {
+          "left": 96,
+          "top": 355.2,
+          "width": 336,
+          "height": 28.8
+        }
+      },
+      {
+        "id": "9",
+        "name": "Text 7",
+        "text": "[Select Track]",
+        "position": {
+          "left": 96,
+          "top": 388.8,
+          "width": 336,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "10",
+        "name": "Text 8",
+        "text": "Date",
+        "position": {
+          "left": 528,
+          "top": 355.2,
+          "width": 336,
+          "height": 28.8
+        }
+      },
+      {
+        "id": "11",
+        "name": "Text 9",
+        "text": "8/7/2026",
+        "position": {
+          "left": 528,
+          "top": 388.8,
+          "width": 336,
+          "height": 33.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hwbqtkby",
+    "shapes": [
+      {
+        "id": "2",
+        "name": "Shape 0",
+        "text": "",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "width": 960,
+          "height": 76.8
+        }
+      },
+      {
+        "id": "3",
+        "name": "Text 1",
+        "text": "Use Case",
+        "position": {
+          "left": 48,
+          "top": 14.4,
+          "width": 864,
+          "height": 48
+        }
+      },
+      {
+        "id": "4",
+        "name": "Text 2",
+        "text": "Problem Statement",
+        "position": {
+          "left": 48,
+          "top": 105.60000000000001,
+          "width": 864,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "5",
+        "name": "Text 3",
+        "text": "• Describe the problem or pain point you are addressing\n• Who are the affected users/stakeholders?\n• What is the current impact or consequence?",
+        "position": {
+          "left": 67.2,
+          "top": 148.8,
+          "width": 825.6,
+          "height": 144
+        }
+      },
+      {
+        "id": "6",
+        "name": "Text 4",
+        "text": "Market Opportunity",
+        "position": {
+          "left": 48,
+          "top": 307.2,
+          "width": 864,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "7",
+        "name": "Text 5",
+        "text": "• Market size and growth potential\n• Target audience demographics\n• Competitive landscape",
+        "position": {
+          "left": 67.2,
+          "top": 350.40000000000003,
+          "width": 825.6,
+          "height": 124.80000000000001
+        }
+      }
+    ]
+  },
+  {
+    "id": "ofy9wn61",
+    "shapes": [
+      {
+        "id": "2",
+        "name": "Shape 0",
+        "text": "",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "width": 960,
+          "height": 76.8
+        }
+      },
+      {
+        "id": "3",
+        "name": "Text 1",
+        "text": "Proposed Solution",
+        "position": {
+          "left": 48,
+          "top": 14.4,
+          "width": 864,
+          "height": 48
+        }
+      },
+      {
+        "id": "4",
+        "name": "Text 2",
+        "text": "Solution Overview",
+        "position": {
+          "left": 48,
+          "top": 105.60000000000001,
+          "width": 864,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "5",
+        "name": "Text 3",
+        "text": "• What is your solution?\n• How does it address the problem?\n• What are the key features and benefits?\n• Why is your approach unique?",
+        "position": {
+          "left": 67.2,
+          "top": 148.8,
+          "width": 825.6,
+          "height": 211.20000000000002
+        }
+      },
+      {
+        "id": "6",
+        "name": "Text 4",
+        "text": "[Insert visual mockup, flowchart, or prototype image here]",
+        "position": {
+          "left": 48,
+          "top": 374.40000000000003,
+          "width": 864,
+          "height": 115.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "jyx0ra1s",
+    "shapes": [
+      {
+        "id": "2",
+        "name": "Shape 0",
+        "text": "",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "width": 960,
+          "height": 76.8
+        }
+      },
+      {
+        "id": "3",
+        "name": "Text 1",
+        "text": "Design Steps & Architecture",
+        "position": {
+          "left": 48,
+          "top": 14.4,
+          "width": 864,
+          "height": 48
+        }
+      },
+      {
+        "id": "4",
+        "name": "Text 2",
+        "text": "Technical Implementation",
+        "position": {
+          "left": 48,
+          "top": 105.60000000000001,
+          "width": 403.2,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "5",
+        "name": "Text 3",
+        "text": "1. [Step 1 - Description]\n2. [Step 2 - Description]\n3. [Step 3 - Description]\n4. [Step 4 - Description]",
+        "position": {
+          "left": 67.2,
+          "top": 148.8,
+          "width": 384,
+          "height": 240
+        }
+      },
+      {
+        "id": "6",
+        "name": "Text 4",
+        "text": "Architecture Diagram",
+        "position": {
+          "left": 508.8,
+          "top": 105.60000000000001,
+          "width": 403.2,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "7",
+        "name": "Text 5",
+        "text": "[Insert architecture diagram, system design, or tech stack visualization]",
+        "position": {
+          "left": 508.8,
+          "top": 148.8,
+          "width": 403.2,
+          "height": 240
+        }
+      }
+    ]
+  },
+  {
+    "id": "i107q5of",
+    "shapes": [
+      {
+        "id": "2",
+        "name": "Shape 0",
+        "text": "",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "width": 960,
+          "height": 76.8
+        }
+      },
+      {
+        "id": "3",
+        "name": "Text 1",
+        "text": "Challenges & Mitigation",
+        "position": {
+          "left": 48,
+          "top": 14.4,
+          "width": 864,
+          "height": 48
+        }
+      },
+      {
+        "id": "4",
+        "name": "Text 2",
+        "text": "Challenge 1",
+        "position": {
+          "left": 48,
+          "top": 105.60000000000001,
+          "width": 864,
+          "height": 28.8
+        }
+      },
+      {
+        "id": "5",
+        "name": "Text 3",
+        "text": "Problem: [Describe challenge]\nMitigation: [How you addressed/will address it]",
+        "position": {
+          "left": 67.2,
+          "top": 139.20000000000002,
+          "width": 825.6,
+          "height": 62.400000000000006
+        }
+      },
+      {
+        "id": "6",
+        "name": "Shape 4",
+        "text": "",
+        "position": {
+          "left": 48,
+          "top": 206.4,
+          "width": 864,
+          "height": 0.9600000000000001
+        }
+      },
+      {
+        "id": "7",
+        "name": "Text 5",
+        "text": "Challenge 2",
+        "position": {
+          "left": 48,
+          "top": 220.8,
+          "width": 864,
+          "height": 28.8
+        }
+      },
+      {
+        "id": "8",
+        "name": "Text 6",
+        "text": "Problem: [Describe challenge]\nMitigation: [How you addressed/will address it]",
+        "position": {
+          "left": 67.2,
+          "top": 254.4,
+          "width": 825.6,
+          "height": 62.400000000000006
+        }
+      },
+      {
+        "id": "9",
+        "name": "Shape 7",
+        "text": "",
+        "position": {
+          "left": 48,
+          "top": 321.6,
+          "width": 864,
+          "height": 0.9600000000000001
+        }
+      },
+      {
+        "id": "10",
+        "name": "Text 8",
+        "text": "Challenge 3",
+        "position": {
+          "left": 48,
+          "top": 336,
+          "width": 864,
+          "height": 28.8
+        }
+      },
+      {
+        "id": "11",
+        "name": "Text 9",
+        "text": "Problem: [Describe challenge]\nMitigation: [How you addressed/will address it]",
+        "position": {
+          "left": 67.2,
+          "top": 369.6,
+          "width": 825.6,
+          "height": 62.400000000000006
+        }
+      }
+    ]
+  },
+  {
+    "id": "x8f69ofe",
+    "shapes": [
+      {
+        "id": "2",
+        "name": "Shape 0",
+        "text": "",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "width": 960,
+          "height": 76.8
+        }
+      },
+      {
+        "id": "3",
+        "name": "Text 1",
+        "text": "Unique Selling Proposition (USP)",
+        "position": {
+          "left": 48,
+          "top": 14.4,
+          "width": 864,
+          "height": 48
+        }
+      },
+      {
+        "id": "4",
+        "name": "Shape 2",
+        "text": "",
+        "position": {
+          "left": 76.8,
+          "top": 105.60000000000001,
+          "width": 259.2,
+          "height": 7.680000000000001
+        }
+      },
+      {
+        "id": "5",
+        "name": "Text 3",
+        "text": "Key Differentiator 1",
+        "position": {
+          "left": 76.8,
+          "top": 120,
+          "width": 259.2,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "6",
+        "name": "Text 4",
+        "text": "[What makes your solution unique in this aspect?]",
+        "position": {
+          "left": 76.8,
+          "top": 158.4,
+          "width": 259.2,
+          "height": 172.8
+        }
+      },
+      {
+        "id": "7",
+        "name": "Shape 5",
+        "text": "",
+        "position": {
+          "left": 374.40000000000003,
+          "top": 105.60000000000001,
+          "width": 259.2,
+          "height": 7.680000000000001
+        }
+      },
+      {
+        "id": "8",
+        "name": "Text 6",
+        "text": "Key Differentiator 2",
+        "position": {
+          "left": 374.40000000000003,
+          "top": 120,
+          "width": 259.2,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "9",
+        "name": "Text 7",
+        "text": "[What makes your solution unique in this aspect?]",
+        "position": {
+          "left": 374.40000000000003,
+          "top": 158.4,
+          "width": 259.2,
+          "height": 172.8
+        }
+      },
+      {
+        "id": "10",
+        "name": "Shape 8",
+        "text": "",
+        "position": {
+          "left": 672,
+          "top": 105.60000000000001,
+          "width": 259.2,
+          "height": 7.680000000000001
+        }
+      },
+      {
+        "id": "11",
+        "name": "Text 9",
+        "text": "Key Differentiator 3",
+        "position": {
+          "left": 672,
+          "top": 120,
+          "width": 259.2,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "12",
+        "name": "Text 10",
+        "text": "[What makes your solution unique in this aspect?]",
+        "position": {
+          "left": 672,
+          "top": 158.4,
+          "width": 259.2,
+          "height": 172.8
+        }
+      },
+      {
+        "id": "13",
+        "name": "Text 11",
+        "text": "Competitive Advantage Summary",
+        "position": {
+          "left": 48,
+          "top": 350.40000000000003,
+          "width": 864,
+          "height": 28.8
+        }
+      },
+      {
+        "id": "14",
+        "name": "Text 12",
+        "text": "• Why customers should choose your solution\n• Your competitive edge vs. existing alternatives",
+        "position": {
+          "left": 67.2,
+          "top": 388.8,
+          "width": 825.6,
+          "height": 115.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "gnmp4jqx",
+    "shapes": [
+      {
+        "id": "2",
+        "name": "Shape 0",
+        "text": "",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "width": 960,
+          "height": 76.8
+        }
+      },
+      {
+        "id": "3",
+        "name": "Text 1",
+        "text": "Demo & POC Video",
+        "position": {
+          "left": 48,
+          "top": 14.4,
+          "width": 864,
+          "height": 48
+        }
+      },
+      {
+        "id": "4",
+        "name": "Text 2",
+        "text": "Live Demonstration",
+        "position": {
+          "left": 48,
+          "top": 105.60000000000001,
+          "width": 864,
+          "height": 33.6
+        }
+      },
+      {
+        "id": "5",
+        "name": "Shape 3",
+        "text": "",
+        "position": {
+          "left": 144,
+          "top": 153.6,
+          "width": 672,
+          "height": 326.40000000000003
+        }
+      },
+      {
+        "id": "6",
+        "name": "Text 4",
+        "text": "▶",
+        "position": {
+          "left": 144,
+          "top": 153.6,
+          "width": 672,
+          "height": 326.40000000000003
+        }
+      },
+      {
+        "id": "7",
+        "name": "Text 5",
+        "text": "[Insert Demo Video / POC Video Link or Embed]",
+        "position": {
+          "left": 144,
+          "top": 460.8,
+          "width": 672,
+          "height": 33.6
+        }
+      }
+    ]
+  }
+]

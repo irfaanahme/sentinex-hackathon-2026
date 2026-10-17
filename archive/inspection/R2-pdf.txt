@@ -1,0 +1,36 @@
+ 
+R2. The Returns Fraud vs. Genuine Grievance Sorter 
+Real-world pain: Online fashion returns run 25–40%. A small fraction are abusive (wardrobing, 
+empty-box, serial returners), but blanket-blocking customers destroys loyalty. Retailers need to 
+separate the abusive few from the genuinely unhappy many — and be able to explain the 
+decision. 
+The problem: Score each incoming return request as auto-approve, inspect, or escalate, using 
+both structured order history and the free-text reason the customer typed. 
+What we provide: 
+ 
+ 60k synthetic return requests: order value, category, discount used, delivery time, 
+customer tenure, prior return rate, payment method 
+ A free-text customer_reason ﬁeld (multilingual mix: English, Hinglish, transliterated Hindi) 
+— deliberately messy, with typos 
+ Product catalogue with size charts and category 
+ Hidden labels: abusive , genuine _quality _issue, genuine _ﬁt_issue, genuine_wrong_item 
+Assumptions students may make: 
+ 
+ No images are available (so no photo veriﬁcation) 
+ Customer text may be honest, exaggerated, or fabricated — text alone is not suﬃcient 
+evidence 
+ A false accusation costs far more than a missed fraud: teams must pick and defend a cost 
+ratio (we suggest 1 wrong block ≈ 10 missed frauds) 
+ Returns policy: 30 days, free returns, no restocking fee 
+Desired output: 
+ 
+1. A three-way routing decision with a calibrated conﬁdence score 
+2. A human-readable justiﬁcation per decision, citing the speciﬁc signals used ("4th return of 
+same size in 60 days; reason text matches prior submissions") 
+3. evaluate. py score = cost-weighted accuracy using the published cost matrix, not raw 
+accuracy 
+4. A fairness check: show that the model does not disproportionately ﬂag new customers, 
+low-value orders, or non-English text — this is a scored requirement 
+5. A "size-chart ﬁx" insight: which 5 products cause the most ﬁt-related returns and should 
+have their size guidance corrected 
+Stretch: a suggested resolution message to the customer, tone-matched to the reason category. 

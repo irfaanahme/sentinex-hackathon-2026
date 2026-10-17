@@ -1,0 +1,41 @@
+ 
+H4. The Medication Safety Second Pair of Eyes 
+Real-world pain: A patient in a district hospital is on medicines prescribed by three diﬀerent 
+doctors across two years. Nobody has the full list. Dangerous interactions, duplicate therapies, 
+and doses unsafe for the patient's kidney function slip through — especially for elderly patients 
+on 8+ drugs. 
+The problem: Given a patient's consolidated medication list and basic clinical context, ﬂag 
+safety risks with a clear severity and a speciﬁc suggested action for the prescriber. 
+What we provide: 
+ 
+ A simpliﬁed drug reference of ~500 medicines: generic name, class, common brands, renal-
+adjustment ﬂag, pregnancy category 
+ A curated interaction table (~2,000 pairs) with severity 
+ 5,000 synthetic patient records: age, weight, eGFR (kidney function), pregnancy status, 
+diagnoses, and a medication list including handwritten-style brand/generic mix and 
+misspellings 
+ Hidden labels: the set of true safety issues per patient, and 300 deliberately seeded near-
+miss cases 
+Assumptions students may make: 
+ 
+ The medication list may be incomplete — the system must not claim the list is safe, only 
+that no issue was found in what it saw 
+ Brand-to-generic mapping must be resolved before checking (this is much of the real 
+diﬃculty) 
+ Reference tables are authoritative and complete for this exercise 
+ No allergy history is available unless present in the record 
+Desired output: 
+ 
+1. A prioritised alert list per patient: issue type (interaction / duplicate therapy / renal dose / 
+contraindication), severity, the drugs involved, and a concrete suggested action 
+2. Alert fatigue is the real enemy and is scored. evaluate. py measures recall on serious issues 
+and penalises low-severity alert volume. A system that ﬂags everything scores near zero — 
+this is the central design lesson 
+3. A fuzzy brand/generic resolution module with a reported match accuracy on the 
+misspelled inputs 
+4. Explicit "conﬁdence and limitations" text shown with every alert, plus a mandatory 
+disclaimer that a clinician decides 
+5. Recall on the 300 seeded near-misses, reported prominently 
+ 
+Stretch: a deprescribing suggestion for polypharmacy patients, with the reasoning chain 
+shown. 

@@ -1,0 +1,38 @@
+ 
+H2. Discharge Summary to Patient-Understandable Care Plan 
+Real-world pain: A patient goes home with a two-page discharge summary full of 
+abbreviations, dosages, and follow-up instructions they cannot read. Non-adherence and 
+avoidable readmission follow. In India, add the layer that the patient may not read English. 
+The problem: Convert a clinical discharge summary into a faithful, plain-language care plan 
+the patient and their family can actually follow — without adding, dropping, or altering any 
+medical instruction. 
+What we provide: 
+ 
+ 2,000 synthetic discharge summaries across common conditions (diabetes, post-op 
+recovery, cardiac, respiratory, maternity), with clinical abbreviations and dosage tables 
+ A medical abbreviation glossary and a drug reference table (generic name, common brand, 
+dose form) 
+ 50 gold-standard human-written plain-language versions as reference examples 
+ An evaluation harness that checks whether every medication, dose, frequency, and follow-
+up date from the source appears in the output 
+Assumptions students may make: 
+ 
+ The source summary is clinically correct and complete — nothing may be inferred beyond 
+it 
+ Target reading level: roughly Class 8 
+ Assume no access to the patient's full EHR beyond the summary 
+ Patient may have low literacy, so structure and simplicity matter more than prose quality 
+Desired output: 
+ 
+1. A structured care plan: medicines (what, how much, when, how long), warning signs that 
+mean "return to hospital immediately", diet and activity guidance, and follow-up 
+appointments 
+2. Faithfulness is scored above ﬂuency. evaluate. py runs an extraction check: any dropped 
+medication, altered dose, or invented instruction is a hard penalty 
+3. Output in English plus one Indian language ofthe team's choice, with the same 
+faithfulness check applied to the translation 
+4. A readability score on the output, reported 
+5. A one-page "fridge sheet" version — the actual artefact a family would use 
+ 
+Stretch: generate a spoken audio version for a patient who cannot read, and a 7-day medicine 
+timetable. 

@@ -1,0 +1,37 @@
+[
+  {
+    "label": "H2",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/H2.Discharge%20Summary%20to%20Patient-Understandable%20Care%20Plan_6.pdf",
+    "sha256": "28c9d02437966f85992e8bcb231cc486cad25751a04405f7749d02325a0395e4",
+    "bytes": 243063
+  },
+  {
+    "label": "BFSI11",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/Smart%20Data%20Masking%20System%20for%20PII%20Protection_1.pdf",
+    "sha256": "623fd17e8cae50f355860e1f7ee6a5b0dae736f324ffa00df704f97a767d5964",
+    "bytes": 47835
+  },
+  {
+    "label": "R3",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/TalentAP-MegaHackathon2026_Idea_Submission_Template_Final%20%282%29%20%281%29_3.pptx",
+    "sha256": "4230ffae3937bb20c664b4f253216ef3a0c9626dd01d35159d64e254de1495ae",
+    "bytes": 1155175
+  },
+  {
+    "label": "BFSI11",
+    "kind": "pptx",
+    "url": "https://be.innosmart.in/media/talentap/Round1_Template%20submission_9.pptx",
+    "sha256": "4daf6ef77aad90fc5ed153dddda9ceaa10469f6ab30adc225af2337b0a787b56",
+    "bytes": 33220
+  },
+  {
+    "label": "H4",
+    "kind": "pdf",
+    "url": "https://be.innosmart.in/media/talentap/H4.%20The%20Medication%20Safety%20Second%20Pair%20of%20Eyes_2.pdf",
+    "sha256": "e67d6602f705c848c5101a61b0b687602f9d23c17c314be3ddeb6b6bd9144de7",
+    "bytes": 201845
+  }
+]

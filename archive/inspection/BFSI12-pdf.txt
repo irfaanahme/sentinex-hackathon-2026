@@ -1,0 +1,33 @@
+Problem Statement 2: Intelligent Life Insurance Needs Finder & Digital Advisory 
+Platform 
+Problem Statement 
+Navigating life insurance purchases is often overwhelming for retail banking 
+customers due to complex financial jargon, manual coverage estimation, and a lack of 
+personalized guidance. This leads to high drop -off rates and low digital sales 
+conversion for insurance providers. BFSI institutions need an end-to-end digital advice 
+platform that replaces static sales funnels with an intelligent needs -assessment 
+engine—one that calculates precise coverage requirements, matches users to tailored 
+life insurance products, and provides interactive advisory features to complete the 
+purchase journey seamlessly. 
+Student Goal 
+Develop an interactive customer -facing web or mobile platform that captures user 
+financial parameters, runs automated algorithms to calculate their exact life  
+insurance needs (such as Human Life Value or Net Needs Approach), recommends 
+appropriate insurance products based on profile matching, and offers integrated 
+digital advice capabilities (such as policy customization, scenario modeling, and 
+specialist consultation booking). 
+Expected Outcome 
+Financial Needs Calculation Engine: A functional backend algorithm that accurately 
+evaluates user inputs (Age, Annual Income, Dependents, Outstanding Liabilities, 
+Future Goals) to recommend an optimal life cover sum. 
+Algorithmic Recommendation Engine : A dynamic decision engine that maps  
+calculated coverage gaps, budget constraints, and risk profiles to specific insurance 
+product types (e.g., Term Life, Whole Life, Endowment, ULIPs). 
+Interactive Frontend Journey:  A responsive digital interface (Web, App, or Streamlit 
+application) leading users through a seamless four-stage experience: 
+1. Assessment Questionnaire / Profile Inputs 
+2. Calculated Coverage Recommendation & Visual Breakdown 
+3. Product Selection & Interactive Benefit Tweaking (slider adjustments for 
+premiums/tenure) 
+4. Digital Advisory Module (a simulated video/chat consultation scheduler with a 
+financial advisor) 

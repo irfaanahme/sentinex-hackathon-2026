@@ -1,0 +1,19 @@
+# Local investigation downloads are not the portable project context.
+/tmp/
+
+# Private local material; keep ID scans and credentials here, never in references.
+/private/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local runtimes and generated caches.
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,102 @@
+Mega Hackathon 2026
+AI for Real-World Impact · Idea Submission
+Retail  R1–R5
+Healthcare  H1–H5
+Read your problem statement in the Problem Statement Pack first.
+Replace the grey text in each box with your answer. Keep all 6 slides, in order.
+Write in text — not screenshots of text.
+Save as PDF: TeamName_ProblemID.pdf (e.g. Pixels_R1.pdf)
+Team Name
+Problem Statement ID
+Problem Statement Title
+Track (keep one)
+College(s)
+Team Lead · Mobile · Email
+BFSI
+www.innosmart.in
+  | 
+www.talentap.in
+  |  
+www.apdti.in
+ 
+
+01
+Problem Understanding
+Show you understand the real pain — in your own words, not copied from the pack.
+1.1 The problem and who it hurts (max 60 words)
+1.2 The metric that matters, and why (max 40 words)
+1.3 Your key assumptions (3–5, with a reason each)
+2
+www.innosmart.in
+  | 
+www.talentap.in
+  |  
+www.apdti.in
+ 
+
+02
+Solution & Technical Approach
+Clear thinking beats compute. CPU-only, using the data and models we provide.
+2.1 One-line pitch (max 25 words)
+2.2 Your approach, step by step (max 100 words)
+2.3 Models, methods & tools (max 40 words)
+2.4 How you will beat the baseline (max 40 words)
+3
+www.innosmart.in
+  | 
+www.talentap.in
+  |  
+www.apdti.in
+ 
+
+03
+Usability & Responsible AI
+Would the real user trust and act on your output tomorrow? What happens when it is wrong?
+3.1 How the user acts on the output (max 60 words)
+3.2 Safety, fairness & limitations (max 80 words)
+4
+www.innosmart.in
+  | 
+www.talentap.in
+  |  
+www.apdti.in
+ 
+
+04
+2-Day MVP Plan
+What you will have working at the final demo — be realistic. UI polish is not the focus.
+4.1 What you will demo at the end of Day 2
+5
+www.innosmart.in
+  | 
+www.talentap.in
+  |  
+www.apdti.in
+ 
+
+05
+Declaration
+Replace each ☐ with ☑ to confirm.
+All members are current students of colleges in Andhra Pradesh (no passouts).
+Each member is part of this team only.
+This idea is our own work.
+We will bring no pre-built code. Our repository will be created at kickoff.
+We will use only the synthetic data and model access provided by the organisers.
+We are available for the hackathon on 30–31 October 2026.
+AI tools used for this deck (if any)
+Team Lead name & date
+Questions: @
+secretariat@talentap.in
+  ·  Talent AP, Dwaraka Nagar, Visakhapatnam
+www.innosmart.in
+  | 
+www.talentap.in
+  |  
+www.apdti.in
+ 
+☐
+☐
+☐
+☐
+☐
+☐
