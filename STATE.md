@@ -35,5 +35,6 @@ Deadline is 18 October; confirm exact cutoff promptly. Clarify rules before codi
 
 Official file hashes and PPT package/font checks passed; all slides visually reviewed.
 No prototype, submission upload or runtime benchmark exists here.
-Public Git publication is in progress; final chat confirmation will report verified push status.
+Initial publication verified: 149 files pushed to origin/main; remote commit matched local HEAD.
 Private attachments, IDs, credentials and runtime dependency caches are excluded.
+
