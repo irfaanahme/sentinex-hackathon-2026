@@ -1,0 +1,20 @@
+/* Nord Light: cool paper, slate text, restrained blue controls. */
+:root { --ink: #2e3440; --muted: #616e82; --paper: #eceff4; --surface: #fafbfd; --line: #cbd3df; --soft: #e5e9f0; --accent: #5e81ac; --teal: #4b6658; }
+aside { background: #e5e9f0; }
+.brand { color: #344c6b; }
+.nav button.active { color: #3f638f; border-bottom-color: #5e81ac; }
+.primary { color: #fff; background: #4e7099; border-color: #4e7099; }
+.primary:hover { background: #3f5c7f; border-color: #3f5c7f; }
+.secondary, select, input, textarea { border-color: #b6c1d1; }
+.secondary:hover { background: #e1e6ee; }
+.panel { background: #fafbfd; }
+th { background: #e5e9f0; color: #566478; }
+td { border-top-color: #dde3ec; }
+tbody tr:hover { background: #eef2f7; }
+.query { color: #4c566a; }
+.data-table td.protected { color: #3f638f; }
+.pii { background: #e4eaf2; color: #46678e; }
+.fin { background: #e9e6ee; color: #76627c; }
+.pub { background: #e5ebe4; color: #546950; }
+.stat .number { color: #3e5675; }
+.error { background: #f5e9e8; border-color: #ddc4c4; border-left-color: #a56568; color: #8a5158; }

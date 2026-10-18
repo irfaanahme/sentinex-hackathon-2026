@@ -35,4 +35,17 @@ Before implementation, decide whether supported queries are fixed templates, res
 
 Arbitrary SQL lineage, audit hash chains, streaming, a third backend and enterprise compliance claims are outside the proposed minimum. Do not claim production readiness, universal SQL safety, zero leakage or regulatory certification from a hackathon demo.
 
-Build timing, allowed data and applicable template restrictions must first be resolved through [PRE_WORK.md](../PRE_WORK.md).
+## Current working implementation — 18 October 2026
+
+The submitted deck is `../submissions/SENTINEX_Problem_11_REVIEWED_v2.pptx`.
+The working code is in `../apps/maskgate/`, with SQLite and DuckDB as the two
+real backends. It supports administrator-reviewed field policies, server-side
+roles, masked query/export, denied protected filters and source-integrity
+verification on imported CSVs. UCI Bank Marketing and MITRE Synthea are public
+or synthetic samples, not an independently labelled scanner benchmark.
+The hosted test app is at
+https://iamirfaanahmed.pythonanywhere.com/maskgate/ .
+PostgreSQL and arbitrary SQL interception remain proposed, not implemented.
+The earlier scope above records planning history; see [STATE.md](../STATE.md)
+for the current handoff. Applicable final-event build restrictions remain
+unresolved.

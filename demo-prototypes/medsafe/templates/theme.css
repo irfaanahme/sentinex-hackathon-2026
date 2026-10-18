@@ -1,0 +1,21 @@
+/* Rose Pine Dawn: warm ivory, rose controls, quiet semantic alert colors. */
+:root { --ink: #514759; --muted: #797083; --paper: #faf4ed; --surface: #fffaf3; --line: #e2d8d4; --soft: #f2e9e1; --accent: #aa6178; --teal: #557b78; }
+aside { background: #f2e9e1; }
+.brand { color: #9d526a; }
+.nav button.active { color: #9d526a; border-bottom-color: #b56b80; }
+.primary { color: #fffaf5; background: #a65d75; border-color: #a65d75; }
+.primary:hover { background: #914d64; border-color: #914d64; }
+.secondary, select, input, textarea { border-color: #d2bfc2; }
+.secondary:hover { background: #f2e9e1; }
+.input-box + .input-box { border-color: #e2d8d4; }
+th { background: #f2e9e1; color: #796776; }
+td { border-top-color: #ece1dd; }
+tbody tr:hover { background: #f7eee7; }
+.pass { color: #4d7975; }
+.stat .number { color: #9d526a; }
+.alert { border-left-color: #b56579; }
+.alert.moderate { border-left-color: #bd9862; }
+.high { color: #99546c; background: #f3e1e3; }
+.moderate-tag { color: #916d3e; background: #f1e7d6; }
+.notices { background: #f3e9dd; border-left-color: #b9905a; color: #786047; }
+.nomatch { color: #a46b4a; }

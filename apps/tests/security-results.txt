@@ -1,0 +1,24 @@
+test_both_apps_work_under_hosted_prefixes (__main__.AppBoundaryTests.test_both_apps_work_under_hosted_prefixes) ... ok
+test_digest_is_not_disclosed_to_restricted_users (__main__.AppBoundaryTests.test_digest_is_not_disclosed_to_restricted_users) ... ok
+test_absolute_session_expiry (__main__.SecurityTests.test_absolute_session_expiry) ... ok
+test_all_devices_revoked (__main__.SecurityTests.test_all_devices_revoked) ... ok
+test_concurrent_password_change_does_not_overwrite_newer_password (__main__.SecurityTests.test_concurrent_password_change_does_not_overwrite_newer_password) ... ok
+test_csrf_and_origin (__main__.SecurityTests.test_csrf_and_origin) ... ok
+test_disabled_user_cannot_replay_or_login (__main__.SecurityTests.test_disabled_user_cannot_replay_or_login) ... ok
+test_hosted_bootstrap_tls_and_headers (__main__.SecurityTests.test_hosted_bootstrap_tls_and_headers) ... ok
+test_hosted_requires_exact_origin (__main__.SecurityTests.test_hosted_requires_exact_origin) ... ok
+test_idle_session_expiry (__main__.SecurityTests.test_idle_session_expiry) ... ok
+test_logout_rejects_copied_cookie (__main__.SecurityTests.test_logout_rejects_copied_cookie) ... ok
+test_no_cookie_identity_without_session_record (__main__.SecurityTests.test_no_cookie_identity_without_session_record) ... ok
+test_other_login_cannot_clear_target_rate_limit (__main__.SecurityTests.test_other_login_cannot_clear_target_rate_limit) ... ok
+test_overlong_username_cannot_alias_real_account (__main__.SecurityTests.test_overlong_username_cannot_alias_real_account) ... ok
+test_password_change_revokes_other_sessions (__main__.SecurityTests.test_password_change_revokes_other_sessions) ... ok
+test_password_rotation_during_login_cannot_issue_old_session (__main__.SecurityTests.test_password_rotation_during_login_cannot_issue_old_session) ... ok
+test_rate_limit_persists_after_app_restart (__main__.SecurityTests.test_rate_limit_persists_after_app_restart) ... ok
+test_user_cannot_disable_owner (__main__.SecurityTests.test_user_cannot_disable_owner) ... ok
+test_wrong_password_cannot_change_password (__main__.SecurityTests.test_wrong_password_cannot_change_password) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 5.655s
+
+OK

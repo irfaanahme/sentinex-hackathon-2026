@@ -1,52 +1,42 @@
-# Project context
+# SENTINEX project context
 
-## Purpose and working entries
+Updated 18 October 2026. Read [STATE.md](STATE.md) first. This is the portable public handoff; never put passwords or identity documents here.
 
-Prepare a credible, practical hackathon entry that the team can build, explain and demonstrate. Irfaan values tangible outcomes and reusable skills or artifacts; prize money and opportunities are possible benefits, not guarantees.
+## Team, event and applications
 
-| Entry | Official problem | Portal identity | Working name | Decision status |
-| --- | --- | --- | --- | --- |
-| Primary | Smart Data Masking System for PII Protection | Card 11, `ocps_id=27` | MaskGate | Working selection in the supplied conversation |
-| Second | The Medication Safety Second Pair of Eyes | H4, card 9, `ocps_id=25` | Not yet named | Selected by user on 17 October; application not confirmed |
+SENTINEX (TEAM-001130): portal team owner and PPT leader Aswini Lakshya; members Aswini Lakshya and Irfaan Ahmed.
 
-The teammate suggested H4 and R2 Returns Fraud (`ocps_id=2`). Independent review favored H4 over the earlier H2 choice because supplied reference-based checks offer a more controlled verification path than bilingual medical rewriting. H2 is now a backup; R2 is an alternative, not an active project. See `DECISION_REPORT.md`. Do not confuse card numbers with API IDs. Catalog `13` maps to competition `1` in the captured JSON.
+| Entry | Portal identity | Product | Application |
+| --- | --- | --- | --- |
+| H4 Medication Safety Second Pair of Eyes | Card 9, `ocps_id=25` | MedSafe | `APP-20261017-0266`, SUBMITTED |
+| Smart Data Masking System for PII Protection | Card 11, `ocps_id=27` | MaskGate | `APP-20261017-0267`, SUBMITTED |
 
-## People and workflow
+The signed-in InnoSmart participant portal confirmed both statuses on 18 October. It shows 105 applications across all 12 problem statements, not counts for these entries. It does not offer other teams' decks. Public search found two related code projects but no verifiable same-problem competitor PPTX: [Medi-Shield](https://github.com/TanishNain/medi-shield) and [FormGuard](https://github.com/mdmehtabalam83098-hue/Smart-Data-Masking-System-for-PII-Protection). Neither is confirmed as an InnoSmart entry.
 
-Team identity confirmed from the user's portal screenshot on 17 October: **SENTINEX**, team code **TEAM-001130**, owner **Aswini Lakshya**, members **Irfaan Ahmed** and **Aswini Lakshya**. The PPT covers use Aswini as team leader.
+The [official event page](https://innosmart.in/ics/2026/MegaHackathon-Oct26/) listed applications closing 18 October, AI screening on 20 October, shortlist on 21 October and finale 30–31 October 2026 at ANITS, Visakhapatnam. Recheck live dates before acting. A separate six-slide template mentions no pre-built code, CPU/supplied-data rules and a kickoff repository; applicability to the two seven-slide tracks is unresolved. Preserve this distinction rather than assuming permission or prohibition.
 
-- Irfaan expects to contribute at least two hours per day and use Codex and Claude Code extensively. Explain technical choices rather than assuming manual coding expertise.
-- The teammate introduced the event and is less comfortable with technical detail. The conversation names her Aswini Lakshya and describes her as the portal lead; confirm the actual registered roster and lead before submission.
-- Suggested division: Irfaan coordinates technical design and implementation; the teammate can own problem understanding, requirements checks, presentation rehearsal and demo testing. Agree these responsibilities together.
-- Devices: office Windows 10 PC and home Mac mini M2. The user accepted GitHub for syncing both project files and context; the user requested a public repository, now being published as irfaanahme/sentinex-hackathon-2026. First clone on the Mac remains to be verified.
-- The user's preferred AI roles are Gemini for broad planning, Claude for architecture, and Codex for execution. Keep one shared project record and short handoffs.
-- Communicate simply and briefly. The user authorized both proposal decks and public GitHub synchronization. Application implementation is not yet authorized to begin.
+## Submitted decks and demos
 
-## Event facts checked on 17 October
+The uploaded copies are `submissions/SENTINEX_Problem_9_REVIEWED_v2.pptx` and `submissions/SENTINEX_Problem_11_REVIEWED_v2.pptx`. Both are seven-slide PPTX files based on the template linked under their statements. Package, font, layout and rendered-slide checks passed before submission. The two older named proposals in `submissions/` are historical.
 
-The official public page states: applications close **18 October 2026**, AI screening is **20 October**, shortlists are due **21 October**, and the final event is **30–31 October at ANITS College, Visakhapatnam**. The exact application cutoff time is unspecified. Teams have 2–4 current students from AP-based colleges; each student belongs to one team. Teams may apply to 1–2 problems using the official PPT template. Applying is free; shortlisted-team fees are ₹1,000 for member institutions or ₹2,000 for non-members. The total prize pool is ₹10 lakh; individual award amounts are unconfirmed. [Official event page](https://innosmart.in/ics/2026/MegaHackathon-Oct26/)
+Slide 7 links to corresponding Google Drive demos. The final MP4 files are also in `demos/`: MedSafe 54 seconds and MaskGate 52 seconds, 1440×900 H.264, with burned-in captions/highlights and no audio. Google Drive access was set to Anyone with the link / Viewer; signed-out playback was not separately checked. Preserve the uploaded decks; later repository edits will not change the organizer's copies.
 
-## Rules that need clarification
+## Working apps
 
-Update on 17 October: the user chose the seven-slide template because it is linked under Problems 9 and 11 and authorized preparing both proposals. Two editable SENTINEX decks now exist in `submissions/`. This choice resolves our submission-format decision, not the separate event build restrictions discussed below. The user reports that applications require PPTs and allotment orders, and that they received advice to use an allotment order instead of a student ID. The advice source is unconfirmed. No upload has occurred.
+`apps/` is the newer functional codebase, distinct from `demo-prototypes/` used in the slide videos. The hosted test workspaces share one PythonAnywhere site at `/medsafe/` and `/maskgate/`. Basic signed-in patient review and Admin data query worked on 18 October. Public/synthetic samples were imported; no real patient or customer records were uploaded.
 
-The files linked to BFSI 11 and H2 use the same seven-slide PPTX. R3 links to a different six-slide template whose instructions include PDF export, CPU-only work, organizer-provided data/models, no pre-built code, and a repository created at kickoff. Its cover includes BFSI as well as Retail and Healthcare. It cannot safely be dismissed as an unrelated track rule.
+- **MaskGate:** import CSVs into SQLite and DuckDB; scan field names/samples, require administrator review, apply server-side Admin/Support/Analyst policies, paginate/query/export masked views, deny protected filters, log activity and compare source integrity. It does not attach to an existing external database, implement arbitrary SQL rewriting or prove universal PII detection.
+- **MedSafe:** import Synthea patient/medication CSVs, search patients, review records at a date, flag repeated codes and shared ingredients when current NLM RxNorm ingredient references exist, and save notes/report snapshots. Clinical interaction, renal-dose, pregnancy and allergy checks remain unavailable without validated references. A clear screen is not a safety clearance.
+- **Security:** hosted mode disables public owner bootstrap, uses server sessions with revocation, request budgets, CSRF/origin checks, HTTPS cookies and restrictive browser policy. This is a test deployment with plaintext-at-rest records and a shared team workspace, not end-to-end encryption or production certification. Do not upload real sensitive data.
 
-Ask which template and restrictions govern each chosen entry. Also verify upload format, size limit, demo expectations and deadline time. The conversation repeatedly mentions PPT/PPTX under 5 MB; treat that as a reported constraint until the live application form or organizer confirms it. Do not invent a hybrid template or claim an exemption based on document numbering.
+The public data in `apps/datasets/` are UCI Bank Marketing (45,211 records, CC BY 4.0) and MITRE Synthea April 2020 synthetic patients (1,171) and medications (42,989). Source URLs, attribution and SHA-256 hashes are recorded in `apps/datasets/sources.json` and `apps/README.txt`. The bank set has no direct customer identifiers and is not a PII scanner gold standard. Synthea includes five source medication rows whose stop predates start; they are retained and excluded from active review.
 
-Planning documentation can proceed now. Keep this preparation repository distinct from any competition implementation repository required to be created at kickoff, subject to organizer clarification. Avoid starting project code on the assumption that pre-building is permitted.
+Local verification before deployment: 16 workflow tests and 19 security/deployment tests passed; an exact dependency audit reported no known vulnerabilities at the time. Hosted public endpoints and asset paths loaded, unauthenticated data endpoints returned 401, and signed-in MedSafe review and MaskGate Admin query worked. These checks do not establish zero bugs, safety effectiveness or Apple-equivalent privacy. Test summaries are in `apps/tests/`.
 
-## Current decisions and open choices
+PythonAnywhere Beginner free hosting has one web worker, limited storage/CPU and monthly web-app expiry; the current renewal date is 18 November 2026. See `apps/HOSTING.txt` and [apps/README.md](apps/README.md) for operation. Use only public/synthetic samples.
 
-| Item | Current position | What resolves it |
-| --- | --- | --- |
-| Project selection | BFSI 11 plus H4 selected | Final names and actual application status |
-| MaskGate stack | PostgreSQL and SQLite proposed; Python possible | Small architecture decision after rules clarification |
-| H4 reference assets | Promised by the statement, not obtained | Organizer distribution of data, rules and evaluation assets |
-| Git sync | GitHub preferred | Public remote requested by user; reviewed commit, verified push and first Mac clone |
-| Submission | Two reviewed seven-slide PPTX proposals in submissions/; portal upload pending | Correct template, accurate content, reviewed export and submission receipt |
-| Prototype | No application code or measurements recorded here | Authorized build at the permitted time, followed by evidence-based checks |
-| Competition popularity | Per-problem counts unknown | Optional official aggregate figures; no delay to preparation |
+## Next technical work
 
-See [sources and corrections](references/SOURCES.md) before reusing claims from earlier AI conversations.
+Obtain the official H4 medicine/interaction reference, 5,000 patients and hidden-label evaluation harness if distributed. Implement clinical rules only with validated provenance; report serious-issue recall, alert burden, name matching and 300 near-misses honestly. For MaskGate, independently label a scanner benchmark, version policies and add a connector to an existing database if final rules permit. Verify organizer restrictions before treating advance code as a final-round entry.
 
+Keep `sources/` in the surrounding ChatGPT project read-only. Keep credentials, allotment orders, ID scans, live databases, session keys and dependency caches outside this public repository. Fetch and integrate remote work before editing from another computer; commit and push deliberately.

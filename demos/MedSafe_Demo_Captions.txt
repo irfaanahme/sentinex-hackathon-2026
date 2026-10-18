@@ -1,0 +1,26 @@
+0s — MEDSAFE · INTRO
+MedSafe flags possible medication concerns. This demo uses fictional medicines and rules.
+
+5s — STEP 1 · PATIENT DETAILS
+Enter medicines and patient details. eGFR measures kidney function.
+
+11s — TEST 1 · MATCH NAMES
+“Alphatb” matches Demo Alpha. AlphaPlus is the same medicine. Matches need review.
+
+18s — TEST 2 · FLAG CONCERNS
+Three flags: interaction, kidney-related review and a repeated medicine.
+
+25s — TEST 3 · PATIENT CONTEXT
+Pregnancy changes the review. This fictional rule flags a concern.
+
+30s — TEST 4 · MISSING DETAILS
+Unknown medicine? Missing details? The tool shows what it cannot check.
+
+36s — TEST 5 · NO LISTED ISSUE
+No rule triggered here. That does not establish safety.
+
+41s — TEST 6 · EXPECTED RESULTS
+Demo tests: 8/8 name checks, 3/3 serious issues found, no unexpected alerts.
+
+48s — RESULT & LIMITS
+Official 300-case testing is still pending. Fictional demo only. A clinician decides.

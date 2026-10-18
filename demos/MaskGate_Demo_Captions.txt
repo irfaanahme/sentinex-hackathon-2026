@@ -1,0 +1,29 @@
+0s — MASKGATE · INTRO
+MaskGate protects personal information. These 3 customer records are made up.
+
+4s — FIND PRIVATE DATA
+Scan fields to identify personal, financial and public information.
+
+9s — TEST 1 · ADMIN
+Admin sees full values in this demo.
+
+13s — TEST 2 · SUPPORT
+Support sees partial details. The account balance is hidden.
+
+18s — TEST 3 · ANALYST
+Analyst gets a coded email identifier. Sensitive values stay hidden.
+
+23s — TEST 4 · DUCKDB
+Switch to DuckDB: the same Support masking policy applies.
+
+28s — TEST 5 · BLOCK A BYPASS
+A request tries to give itself Admin access. HTTP 403: access denied.
+
+34s — TEST 6 · RULE CHECKS
+144/144 policy checks pass. The scanner finds all labeled sensitive fields, plus one false flag.
+
+41s — TEST 7 · ORIGINAL DATA
+Matching fingerprints confirm that the original records remain unchanged.
+
+46s — RESULT & LIMITS
+Query speed is compared too. These tiny local tests do not prove production performance.

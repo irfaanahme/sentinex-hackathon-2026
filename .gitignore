@@ -15,5 +15,12 @@ venv/
 node_modules/
 __pycache__/
 *.pyc
+**/.runtime/
+**/.qa/
+**/.backups/
+*.sqlite
+*.sqlite-journal
+*.duckdb
+*.wal
 .DS_Store
 Thumbs.db

@@ -1,0 +1,23 @@
+18 October 2026 — hosted preparation verification
+
+Workflow suite: 16 tests passed, 69.204 seconds.
+Security/deployment regression suite: 19 tests passed, final run 5.655 seconds.
+Python compilation and JavaScript syntax checks passed.
+Pinned application dependency audit: no known vulnerabilities reported by pip-audit.
+The audit covers the eight exact packages in requirements-lock.txt; it is not a
+claim that unknown vulnerabilities or provider weaknesses do not exist.
+
+Browser checks in isolated QA workspaces:
+- Both app logins and new Account & privacy screens rendered.
+- MedSafe pagination reached page 2 of 1,171 synthetic patients.
+- Selected patient review rendered active records and explicit coverage limits.
+- No JavaScript error/warning entries captured in either tested tab.
+- Screenshots saved in the parent deliverables folder.
+
+Hosted URL-path tests exercise /medsafe/ and /maskgate/, asset URLs, secure
+cookie paths, account provisioning, login and private-file traversal denial.
+An external hosted deployment has NOT been completed. PythonAnywhere signup
+and sign-in are pending, followed by installation and provider-side smoke tests.
+
+Final additional checks reject password-rotation/login races, overlapping
+password changes and an overlong username alias of a 40-character account.

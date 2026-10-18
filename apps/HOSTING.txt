@@ -1,0 +1,84 @@
+SENTINEX — PRIVATE TEAM TEST DEPLOYMENT
+
+CURRENT STATUS (18 October 2026): Deployed at
+https://iamirfaanahmed.pythonanywhere.com/medsafe/ and
+https://iamirfaanahmed.pythonanywhere.com/maskgate/ .
+The instructions below are for reproducing the setup on another account.
+No credentials or live database files are included in this repository.
+
+Target: PythonAnywhere Beginner (free), one site with /medsafe/ and /maskgate/.
+As checked 18 October 2026: one web worker, 512 MiB private file storage,
+100 console CPU seconds, one-month web-app expiry. Renew the free web app
+as the dashboard requires. This is a test deployment, not a production SLA.
+https://help.pythonanywhere.com/pages/FreeAccountsFeatures/
+https://www.pythonanywhere.com/pricing/
+
+1. Upload only SENTINEX_Hosting_Ready.zip through PythonAnywhere Files.
+   The archive excludes runtime data, keys, passwords, QA fixtures and caches.
+   Extract to /home/YOUR_USERNAME/sentinex.
+
+2. In a Bash console:
+   python3.12 -m venv /home/YOUR_USERNAME/.virtualenvs/sentinex
+   /home/YOUR_USERNAME/.virtualenvs/sentinex/bin/pip install --no-cache-dir -r /home/YOUR_USERNAME/sentinex/requirements-lock.txt
+   export APP_DATA_ROOT=/home/YOUR_USERNAME/.sentinex-data
+   export APP_PUBLIC_ORIGIN=https://YOUR_USERNAME.pythonanywhere.com
+   export APP_MODE=hosted
+   cd /home/YOUR_USERNAME/sentinex
+   /home/YOUR_USERNAME/.virtualenvs/sentinex/bin/python manage.py init both
+   (Choose your owner account. Password entry is hidden. Do not paste a password into a command.)
+
+3. Create one Web app using Manual configuration and the same Python version.
+   Set Virtualenv to /home/YOUR_USERNAME/.virtualenvs/sentinex.
+   Replace the WSGI file contents with:
+
+   import os, sys
+   sys.path.insert(0, '/home/YOUR_USERNAME/sentinex')
+   os.environ['APP_MODE'] = 'hosted'
+   os.environ['APP_PUBLIC_ORIGIN'] = 'https://YOUR_USERNAME.pythonanywhere.com'
+   os.environ['APP_DATA_ROOT'] = '/home/YOUR_USERNAME/.sentinex-data'
+   os.environ['APP_TRUST_PROXY_PROTO'] = '1'
+   from hosting import application
+
+   Enable Force HTTPS in the Web tab and reload the site. Do not configure
+   any static-file mapping to the source root or the data directory.
+   Each app serves only its own template assets. No app.run() is used online.
+
+4. Sign in to each app, import the sample you need, then create tester accounts
+   in Account & privacy. Keep most users Support/Analyst or Reviewer.
+   MedSafe Reviewers see the shared patient workspace; this is NOT tenant isolation.
+   Use the account credentials chosen by the workspace owner.
+
+5. Verify another device: login, samples, both database engines, masked exports,
+   sign-out replay rejection, account disabling, and NLM reference refresh.
+   Share only the HTTPS /medsafe/ and /maskgate/ links.
+
+SECURITY IN THIS RELEASE
+- Online first-owner setup disabled; private console provisioning required.
+- Host allowlist, secure HttpOnly SameSite cookies, HTTPS requirement, HSTS.
+- Persistent server-side sessions: sign-out revocation, sign out all devices,
+  password-change revocation, disabled-account revocation, 30-minute idle and
+  eight-hour absolute lifetime, ten concurrent sessions per account.
+- Persistent atomic per-account and source request budgets, not reset by success.
+- CSRF and origin checks, restrictive script policy, no third-party tracking.
+- Restricted MaskGate metadata excludes original-data digests.
+- Account creation/disable UI in both apps. Patient/history request race fixes.
+- Logs limited to 30 days/10,000 events; no patient values in log payloads except
+  opaque internal record identifiers. Hosting platform request logs are separate.
+
+LIMITATIONS / NEXT MILESTONES
+- SQLite/DuckDB record files are plaintext. Provider/operator can access them.
+  This is not end-to-end encryption and not a claim of Apple-equivalent security.
+- Shared team workspaces, no per-customer isolation; no public registration.
+- MFA/passkeys, encrypted backups, verified restore, self-service deletion,
+  per-team isolation, dependency monitoring and independent penetration testing
+  remain required before handling real sensitive records online.
+- Clinical safety checks are not validated; MedSafe currently reconciles records.
+- Free hosting may pause/expire and has a single worker. NLM updates run in batches
+  of up to three codes; each network request has a four-second timeout.
+- The review covered app source, not the hosting provider or every dependency.
+
+PRIVATE RECOVERY
+In the hosting console, set the same APP_DATA_ROOT and environment and run:
+  python manage.py reset-password medsafe
+or maskgate. This changes a known account password and revokes its sessions.
+Do not delete secret.key: MaskGate uses it for stable pseudonyms as well as cookies.

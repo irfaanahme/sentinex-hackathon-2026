@@ -1,0 +1,39 @@
+{
+  "latency": [
+    {
+      "backend": "SQLite",
+      "baseline_ms": 0.014,
+      "masked_ms": 0.02
+    },
+    {
+      "backend": "DuckDB",
+      "baseline_ms": 0.261,
+      "masked_ms": 0.262
+    }
+  ],
+  "limits": "Tiny synthetic fixture. Scanner includes a known false positive. Demo identities have no passwords. Fixed SELECT only. PostgreSQL and production authentication remain future work.",
+  "policy": {
+    "passed": 144,
+    "total": 144
+  },
+  "scanner": {
+    "examples": 14,
+    "fn": 0,
+    "fp": 1,
+    "precision": 0.889,
+    "recall": 1,
+    "tp": 8
+  },
+  "source_checks": [
+    {
+      "backend": "SQLite",
+      "sha256": "d5113b4b1b913729f70b7e7e8018ebfcb6b9a6133606c4464f9fc04798c0ce3a",
+      "unchanged": true
+    },
+    {
+      "backend": "DuckDB",
+      "sha256": "d5113b4b1b913729f70b7e7e8018ebfcb6b9a6133606c4464f9fc04798c0ce3a",
+      "unchanged": true
+    }
+  ]
+}

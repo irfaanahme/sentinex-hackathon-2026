@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "case": "review",
+      "expected": [
+        "DUP-A",
+        "INT-01",
+        "REN-A"
+      ],
+      "observed": [
+        "DUP-A",
+        "INT-01",
+        "REN-A"
+      ],
+      "pass": true
+    },
+    {
+      "case": "pregnancy",
+      "expected": [
+        "CON-C"
+      ],
+      "observed": [
+        "CON-C"
+      ],
+      "pass": true
+    },
+    {
+      "case": "no_issue",
+      "expected": [],
+      "observed": [],
+      "pass": true
+    },
+    {
+      "case": "incomplete",
+      "expected": [],
+      "observed": [],
+      "pass": true
+    }
+  ],
+  "extra_alerts": 0,
+  "limitations": "Tiny handcrafted demo fixtures only. Official 300-case near-miss recall is not measured. Organizer reference and evaluate.py have not been supplied.",
+  "matching": {
+    "passed": 8,
+    "total": 8
+  },
+  "official_near_miss_recall": null,
+  "serious": {
+    "found": 3,
+    "total": 3
+  }
+}

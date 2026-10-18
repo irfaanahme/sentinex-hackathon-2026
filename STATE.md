@@ -1,40 +1,30 @@
 # Current project state
 
-Updated: 17 October 2026, Asia/Kolkata.
-Phase: Round 1 PPT proposals prepared; competition implementation not started.
+Updated: 18 October 2026, Asia/Kolkata.
+Team SENTINEX (TEAM-001130); entries: Problem 9/H4 MedSafe and Problem 11 MaskGate.
 
 ## Completed
 
-- Shared agent instructions, project context, track contexts and preparation checklist.
-- Official statements/templates, all-12 download archive and source evidence preserved.
-- Two editable seven-slide SENTINEX proposals in `submissions/`; slides visually reviewed.
-- Team: SENTINEX, owner Aswini Lakshya, members Irfaan Ahmed and Aswini Lakshya.
-- Public repository created: https://github.com/irfaanahme/sentinex-hackathon-2026
-- `HOME_START.md` explains Mac cloning, session startup and manual Git sync.
+- Both InnoSmart applications show SUBMITTED: H4 `APP-20261017-0266`; data masking `APP-20261017-0267`.
+- The submitted seven-slide PPTX copies are `submissions/*REVIEWED_v2.pptx`. Slide 7 links to silent, captioned videos in `demos/` and Google Drive.
+- `apps/` contains the newer working MedSafe and MaskGate code, tests and public/synthetic samples. The earlier video prototypes are in `demo-prototypes/`.
+- Hosted test workspaces: https://iamirfaanahmed.pythonanywhere.com/medsafe/ and https://iamirfaanahmed.pythonanywhere.com/maskgate/ . Both signed-in basic workflows were checked on 18 October.
+- Before hosting, 16 workflow and 19 security/deployment tests passed. See `apps/tests/`. This is not proof of zero bugs or clinical/production certification.
 
-## Working choices
+## Current limits
 
-- Primary: BFSI 11, ocps_id 27, working name MaskGate.
-- Second: H4 Medication Safety, card 9, ocps_id 25. H2 is a backup.
-- User selected the seven-slide template linked under Problems 9 and 11.
-- Decision rationale: `DECISION_REPORT.md`; short report: `Our Hackathon Choices.docx`.
+- MedSafe reconciles records and optionally resolves ingredients through NLM RxNorm. Validated interaction, renal-dose, pregnancy and allergy rules are not installed.
+- MaskGate uses SQLite and DuckDB on imported CSVs with administrator-reviewed policies. It does not yet connect to an existing PostgreSQL/MySQL server.
+- Hosting is a shared test workspace with plaintext-at-rest database files; use public/synthetic records only. PythonAnywhere free hosting requires monthly renewal, next due 18 November 2026.
+- Organizer rules on pre-built code, supplied assets and kickoff repositories remain unresolved. H4 reference packs/hidden labels have not been obtained, so official hidden-set performance is unmeasured.
+- InnoSmart shows 105 applications across all 12 problems; per-problem counts and other applicants' decks are unavailable through the participant view.
 
-## Open issues
+## Next actions
 
-- Do no-pre-built-code, kickoff-repository, CPU and supplied-data/model rules apply?
-- User reports PPTs and allotment orders required; application submission remains pending.
-- Per-problem applicant counts unknown; not a prerequisite.
-- First clone/access on the home Mac remains to be verified by the user.
+1. Verify organizer rules before presenting prebuilt app code as a final-round entry.
+2. If official assets arrive, test against them and report measured results; do not infer hidden-set performance from demos.
+3. Preserve the submitted decks and video links. Treat later edits as new versions.
 
-## Next action
+## Sync
 
-Clone using `HOME_START.md`, review both PPTs and complete applications when instructed.
-Deadline is 18 October; confirm exact cutoff promptly. Clarify rules before coding.
-
-## Verification and sync
-
-Official file hashes and PPT package/font checks passed; all slides visually reviewed.
-No prototype, submission upload or runtime benchmark exists here.
-Initial publication verified: 149 files pushed to origin/main; remote commit matched local HEAD.
-Private attachments, IDs, credentials and runtime dependency caches are excluded.
-
+Check `git status`, `git log` and `origin/main` to confirm this update was pushed. A saved file is not a sync.

@@ -1,0 +1,16 @@
+.runtime/
+**/.runtime/
+__pycache__/
+*.pyc
+.venv/
+.qa/
+datasets/*.zip
+
+.backups/
+*.key
+*.sqlite
+*.sqlite-journal
+*.duckdb
+*.wal
+.env
+.env.*

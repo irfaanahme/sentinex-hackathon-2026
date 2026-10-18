@@ -24,4 +24,15 @@ Begin with structured/text inputs and one complete patient-to-alert workflow. Do
 - Run the supplied harness when available; do not invent results for hidden labels.
 - Make limitations understandable to the teammate and evaluator.
 
-Rationale for selection and current feasibility judgment: [decision report](../DECISION_REPORT.md). Applicable build timing, AI tools and data rules remain unresolved.
+## Current working implementation — 18 October 2026
+
+The submitted deck is `../submissions/SENTINEX_Problem_9_REVIEWED_v2.pptx`.
+The working code is in `../apps/medsafe/` and the hosted test app is at
+https://iamirfaanahmed.pythonanywhere.com/medsafe/ . It imports Synthea
+synthetic patient/medication records, reviews active records at a chosen date,
+detects repeated codes, optionally refreshes NLM RxNorm ingredient references,
+and saves human review notes. Validated interaction, renal, pregnancy and
+allergy checks are unavailable because the organizer's reference pack has not
+been obtained. Official 300-case near-miss recall is unmeasured. The earlier
+approach above is planning history; see [STATE.md](../STATE.md) for current
+status. Applicable final-event build restrictions remain unresolved.

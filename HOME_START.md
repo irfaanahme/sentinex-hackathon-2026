@@ -13,17 +13,20 @@ cd sentinex-hackathon-2026
 
 Open this folder in Codex or Claude Code. Start with this message:
 
-> Read AGENTS.md, STATE.md, PROJECT_CONTEXT.md and PRE_WORK.md, then the two selected track contexts. Continue from the recorded next action. Do not start competition implementation until the applicable build rules are resolved.
+> Read AGENTS.md, STATE.md and PROJECT_CONTEXT.md, then the two selected track contexts. Continue from the recorded next action and verify current organizer rules before using advance code at the finale.
 
 No coding runtime is needed just to read the context or open the Word and PowerPoint files. Public cloning needs no GitHub login; pushing changes requires signing into your GitHub account on the Mac.
 
 ## Files to use
 
-- `submissions/`: the two current SENTINEX seven-slide PPTX proposals, for Problems 9 and 11.
+- `submissions/*REVIEWED_v2.pptx`: the two submitted seven-slide PPTX copies.
+- `demos/`: matching silent, captioned videos.
+- `apps/`: current working app code, public/synthetic CSVs, tests and hosting instructions.
+- `demo-prototypes/`: earlier prototypes used in the slide videos.
 - `Our Hackathon Choices.docx`: the short teammate-facing explanation.
 - `Hackathon Decision Report.docx` and `DECISION_REPORT.md`: detailed rationale.
 - `references/official/`: selected official requirements and both templates.
-- `archive/`: additional downloads, generation sources and historical review outputs. Use `submissions/` for the latest decks.
+- `archive/`: additional downloads, generation sources and historical review outputs.
 - `STATE.md`: current status, open questions and exact next step.
 
 The full chat history is not transferred by Git. Its relevant decisions and uncertainties are recorded in the project context files. Original private chat attachments and identity documents are not published.
@@ -34,4 +37,4 @@ Before starting, run `git status`. If clean, use `git pull --ff-only`. If it rep
 
 Before leaving, ask the agent: "Update STATE.md, review changed files for public sharing, commit the intended files, push, and verify the remote commit." A local save or commit alone does not upload anything. There is no automatic sync.
 
-Keep allotment orders, student IDs, passwords and API keys outside the repository. This is the preparation repository; a separate repository may be required at competition kickoff.
+Keep allotment orders, student IDs, passwords, live databases, session keys and API keys outside the repository. A separate repository may be required at competition kickoff; verify organizer instructions.

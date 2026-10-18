@@ -1,0 +1,14 @@
+test_01_dated_overlap_and_explicit_coverage (__main__.MedTests.test_01_dated_overlap_and_explicit_coverage) ... ok
+test_02_saved_report (__main__.MedTests.test_02_saved_report) ... ok
+test_03_network_failure_visible (__main__.MedTests.test_03_network_failure_visible) ... ok
+test_04_unknown_patient_rejected_atomically (__main__.MedTests.test_04_unknown_patient_rejected_atomically) ... ok
+test_05_synthea_import (__main__.MedTests.test_05_synthea_import) ... ok
+test_06_protected_history (__main__.MedTests.test_06_protected_history) ... ok
+test_06a_reference_ingredient_overlap_and_staleness (__main__.MedTests.test_06a_reference_ingredient_overlap_and_staleness) ... ok
+test_06b_invalid_date_preserved_and_excluded (__main__.MedTests.test_06b_invalid_date_preserved_and_excluded) ... ok
+test_06c_json_shape_validation (__main__.MedTests.test_06c_json_shape_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.436s
+
+OK

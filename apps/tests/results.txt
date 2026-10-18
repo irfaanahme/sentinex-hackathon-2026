@@ -1,0 +1,18 @@
+test_01_unapproved_closed_both_engines (__main__.MaskTests.test_01_unapproved_closed_both_engines) ... ok
+test_02_policy_role_query_export_integrity (__main__.MaskTests.test_02_policy_role_query_export_integrity) ... ok
+test_03_session_authority (__main__.MaskTests.test_03_session_authority) ... ok
+test_04_csv_validation_and_csrf (__main__.MaskTests.test_04_csv_validation_and_csrf) ... ok
+test_05_persistent_state (__main__.MaskTests.test_05_persistent_state) ... ok
+test_06_formula_export (__main__.MaskTests.test_06_formula_export) ... ok
+test_07_public_dataset_scale (__main__.MaskTests.test_07_public_dataset_scale) ... ok
+test_01_dated_overlap_and_explicit_coverage (__main__.MedTests.test_01_dated_overlap_and_explicit_coverage) ... ok
+test_02_saved_report (__main__.MedTests.test_02_saved_report) ... ok
+test_03_network_failure_visible (__main__.MedTests.test_03_network_failure_visible) ... ok
+test_04_unknown_patient_rejected_atomically (__main__.MedTests.test_04_unknown_patient_rejected_atomically) ... ok
+test_05_synthea_import (__main__.MedTests.test_05_synthea_import) ... ok
+test_06_protected_history (__main__.MedTests.test_06_protected_history) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 65.177s
+
+OK
