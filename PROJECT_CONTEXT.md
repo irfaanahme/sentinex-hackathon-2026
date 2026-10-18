@@ -1,6 +1,6 @@
 # SENTINEX project context
 
-Updated 18 October 2026. Read [STATE.md](STATE.md) first. This is the portable public handoff; never put passwords or identity documents here.
+Updated 18 October 2026. Read [STATE.md](STATE.md) first and [HISTORY.md](HISTORY.md) for the path from selection through submission, demos, apps and hosting. This is the portable public handoff; never put passwords or identity documents here.
 
 ## Team, event and applications
 

@@ -1,5 +1,7 @@
 # Why we chose Problems 9 and 11
 
+**Historical decision report:** This explains the initial choice before submission and implementation. For what happened afterward, see [HISTORY.md](HISTORY.md) and [STATE.md](STATE.md).
+
 We have chosen **Problem 9 — Medication Safety** and **Problem 11 — Smart Data Masking** as our two planned entries. Both address practical problems, can produce a clear demonstration, and give us concrete ways to check whether our solution works.
 
 This is our project choice, not confirmation that the applications have been submitted. We still need clarification on the applicable template, permitted AI tools and when implementation may begin.

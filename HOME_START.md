@@ -13,7 +13,7 @@ cd sentinex-hackathon-2026
 
 Open this folder in Codex or Claude Code. Start with this message:
 
-> Read AGENTS.md, STATE.md and PROJECT_CONTEXT.md, then the two selected track contexts. Continue from the recorded next action and verify current organizer rules before using advance code at the finale.
+> Read AGENTS.md, STATE.md, PROJECT_CONTEXT.md and HISTORY.md, then the two selected track contexts. Continue from the recorded next action and verify current organizer rules before using advance code at the finale.
 
 No coding runtime is needed just to read the context or open the Word and PowerPoint files. Public cloning needs no GitHub login; pushing changes requires signing into your GitHub account on the Mac.
 
@@ -28,8 +28,9 @@ No coding runtime is needed just to read the context or open the Word and PowerP
 - `references/official/`: selected official requirements and both templates.
 - `archive/`: additional downloads, generation sources and historical review outputs.
 - `STATE.md`: current status, open questions and exact next step.
+- `HISTORY.md`: the dated discussions, choices, revisions and measurements behind the current state.
 
-The full chat history is not transferred by Git. Its relevant decisions and uncertainties are recorded in the project context files. Original private chat attachments and identity documents are not published.
+The verbatim chat transcript is not transferred by Git. Its relevant discussions, decisions and uncertainties are recorded in `HISTORY.md` and the project context files. Original private chat attachments and identity documents are not published.
 
 ## Each time you switch machines
 

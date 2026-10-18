@@ -2,6 +2,7 @@
 
 Updated: 18 October 2026, Asia/Kolkata.
 Team SENTINEX (TEAM-001130); entries: Problem 9/H4 MedSafe and Problem 11 MaskGate.
+The full decision and revision trail is in [HISTORY.md](HISTORY.md).
 
 ## Completed
 

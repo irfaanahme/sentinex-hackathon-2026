@@ -1,5 +1,7 @@
 # Preparation tasks
 
+**Historical snapshot:** This checklist was written before the 17 October submissions and before the apps were built. Its pending tasks and "no app submitted" status are superseded by [STATE.md](STATE.md); see [HISTORY.md](HISTORY.md) for the progression. Keep the original checklist below as a record of preparation, not as the current task list.
+
 The application deadline is 18 October 2026. Prioritize application readiness over more reconnaissance or elaborate infrastructure. Owners below are proposed responsibilities, not tasks already assigned to another person.
 
 Progress on 17 October: SENTINEX team identity confirmed by screenshot. User selected the seven-slide template and reports that the application needs PPTs plus allotment orders. Both proposal decks are prepared under `submissions/`, with planned demonstrations rather than fabricated prototype results. Review and actual submission remain pending. Build restrictions still require clarification.
@@ -52,5 +54,4 @@ Confirm a portable computer and power/network plan for the venue. The office des
 - Guessing rival ability, sponsor identity or win probabilities.
 - Creating a polished dashboard, public deployment, second database alternative beyond the required two, or advanced features before the basic workflow is settled.
 - Generating slides or code merely to fill the workspace before the user asks for that task.
-
 
