@@ -40,3 +40,13 @@ Full original downloads and earlier inspection outputs are preserved in `archive
 
 Prepare persuasive submissions by clearly connecting requirements, design and actual evidence. Do not describe invented results as tests or try to instruct the evaluator through hidden content. Any demo simulation or mockup must be labeled honestly.
 
+
+## 30 October 2026 portal recheck
+
+- [Signed-in application detail](https://app.innosmart.in/rp/applications): MaskGate Qualified / Paid; same B1 dataset and v1.1 guidelines added 24 October. No new final-upload control visible during review. Payment transaction identifiers were not copied.
+- [Notifications](https://app.innosmart.in/rp/notifications): 29 October update, paid confirmation and earlier PPT/code deadlines read. Treat generic dashboard progress as weaker than the specific application status.
+- [Participant Quest Map](https://innosmart.in/ics/2026/MegaHackathon-Oct26/ParticipantsQuestMap/): all 13 sections expanded. Saved rendered text in [the dated snapshot](official/ParticipantsQuestMap-2026-10-30.txt). Tentative four-stage 25-point route, 06:00 code freeze, new three-minute video round and four-minute final Q&A. No exact code-analysis rubric supplied.
+- [Competition details](https://app.innosmart.in/rp/competitions/13): read Overview, Documents, Timeline, FAQs and current B1 description. General Documents still contains only the Round 1 template. 573 is the total across 12 problems, not the MaskGate competitor count.
+- [Public event page](https://innosmart.in/ics/2026/MegaHackathon-Oct26/): read current event details; accommodation contact availability does not confirm a reservation.
+
+The current state and newer schedule are summarized at the top of OFFLINE_FINALS.md; earlier sections remain dated history.

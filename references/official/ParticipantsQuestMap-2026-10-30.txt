@@ -1,0 +1,140 @@
+Source: https://innosmart.in/ics/2026/MegaHackathon-Oct26/ParticipantsQuestMap/
+Observed: 30 October 2026, Asia/Kolkata. Page explicitly labels schedule Tentative Plan. XP checkboxes are local progress controls, not awarded scores.
+
+TALENTAP MEGA HACKATHON 2026 · 30–31 OCT
+Quest Map: climb to 100 XP
+
+Tentative Plan
+
+Starter Level 1
+0 / 100 XP · 0 of 4 bosses defeated
+Starter
+0 XP
+Builder
+25 XP
+Contender
+50 XP
+Finalist
+75 XP
+Champion
+100 XP
+
+Tap a quest for details. Mark each boss battle defeated as you go to earn its XP.
+
+DAY 1 · FRIDAY, 30 OCTOBER
+1
+Registrations
+08:00–09:30
+Quest
+What
+All teams check in.
+2
+Orientation for participants
+09:30–10:15
+Quest
+What
+The four stages and their points.
+Outcome
+Every team knows the rules and the timeline.
+3
+Hackathon begins in different halls
+10:30
+Quest
+What
+Teams build. Mentors give hints, not solutions.
+Outcome
+A working solution by 18:00.
+4
+Stage 1: Functional evaluation
+18:00–21:00
++25 XP
+What
+The jury checks completeness, each member's contribution, readiness and confidence.
+Points
+25 (jury's own scale, converted to 25)
+Outcome
+Stage 1 score and feedback for every team.
+Mark boss defeated
+DAY 2 · SATURDAY, 31 OCTOBER
+5
+Code submission deadlineCode freeze
+06:00
+Quest
+What
+Each team uploads one zip. No code changes after this.
+Outcome
+One frozen zip per team.
+6
+Stage 2: Code analysis
+06:00–09:00
++25 XP
+What
+Automated tools score every zip.
+Points
+Retail and Healthcare: evaluate.py 15 + code analysis 10. BFSI: code analysis 25.
+Outcome
+Stage 2 score for every team.
+Mark boss defeated
+7
+Shortlisting of around 40 teamsCut · top 40
+09:00
+Quest
+What
+Teams ranked on Stage 1 + Stage 2 (out of 50).
+Outcome
+Top 40 announced.
+8
+Orientation for the 40 teams
+09:00–09:30
+Quest
+What
+Brief for the 3-minute video.
+Outcome
+Teams know what to record.
+9
+Presentation by the teams
+09:30–11:30
+Quest
+What
+Teams record a 3-minute video covering the sales pitch and product pitch.
+Outcome
+40 videos by 11:30.
+10
+Stage 3: Presentation evaluationCut · top 15
+11:30–13:30
++25 XP
+What
+Jury scores the 40 videos.
+Points
+25
+Outcome
+Top 15 announced, ranked on 75 points: Stages 1 and 2 (50) + Stage 3 (25).
+Mark boss defeated
+11
+Briefing for the 15 finalists
+13:45–14:00
+Quest
+What
+A short briefing on the final round.
+Outcome
+Finalists prepared for the jury's questions.
+12
+Stage 4: Final evaluation
+14:00–15:00
++25 XP
+What
+Jury questions only, about 4 minutes per team.
+Points
+25
+Outcome
+Final scores out of 100.
+Mark boss defeated
+13
+Valedictory and prize distribution
+15:00–16:00
+Quest
+What
+Top 3 overall, top 2 per domain and consolation prizes awarded.
+Prize quest unlocked at 15:00
+Top 3 overall, top 2 per domain, and consolation prizes.
+TalentAP Mega Hackathon 2026
