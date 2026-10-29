@@ -12,10 +12,10 @@ Team SENTINEX (TEAM-001130); MaskGate / Problem 11 / offline B1 is the confirmed
 - Development benchmark: 98.75% precision, 100% recall (one conservative branch-date false positive); 54,190/54,190 policy-related assertions and 83/83 backend checks passed. All source rows unchanged. Team labels, not organizer ground truth or blind testing.
 - A security review found prior Admin results could remain after logout; fixed by document replacement and cross-tab account-change notification. Real same-tab and cross-tab browser regressions passed. This is not a universal security guarantee.
 - New seven-slide L1 PPT: outer deliverables/MaskGate_B1_FINALS.pptx, with PDF preview. Old Round 1 PPTs/videos remain historical.
-- Clean-clone package: outer deliverables/TEAM-001130_B1.zip; finals commit `0e327aa`. Fresh cached-only dependency installation and checks passed in a path containing spaces, with external network denied. ZIP retains hidden .git and passed extraction/Git checks.
+- Clean-clone package: outer deliverables/TEAM-001130_B1.zip; finals commit `ebd4794`. Fresh cached-only dependency installation and checks passed in a path containing spaces, with external network denied. ZIP retains hidden .git and passed extraction/Git checks.
 - Matching Apple Silicon offline recovery cache is separate in outer deliverables/MaskGate_Offline_Recovery_arm64 (48 wheels, 26.3 MB). Python 3.12/PostgreSQL 16 must already be installed; this is not a universal installer. Another-Mac rehearsal remains pending.
 
-- Optional Google login code is saved/tested; local login stays offline. Google Cloud MaskGate project created; consent policy accepted with permission. Localhost Web client form prepared; credential creation awaits action-time confirmation. No client ID/live Google login yet. Continue Chrome, configure and test real linking/login.
+- Optional Google login code is saved/tested; local login stays offline. Google client created with permission and configured locally; real provider button/account chooser verified. User must finish My account → Link Google account in Chrome. Successful linked login remains unverified; no billing activated.
 
 ## Rules and remaining actions
 
