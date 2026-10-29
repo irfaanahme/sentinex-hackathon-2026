@@ -61,3 +61,7 @@ Updated 18 October 2026 (Asia/Kolkata). This is a reconstructed account of the d
 | Rules and performance | Proposed event build and target checks | Some local checks measured; official rules/assets and hidden-set performance remain unresolved |
 
 The record intentionally omits personal passwords, identity files and private session details. It captures the major discussions and changes that affect future work, while the source files and current handoff show what actually exists now.
+
+## 29 October: late shortlist and official B1 materials
+
+The team first received unsuccessful Phase 2 notifications on 24 October, then a 29 October shortlist notice after a place became available. The live portal showed MaskGate as **Qualified / Payable**; the MedSafe application still showed **Submitted / Applied**. The user arranged money and transport and asked to inspect the official dataset. The MaskGate application exposed the 37 MB B1 Saffron Bank pack (nine related synthetic tables, 129,260 rows, provided for SQLite/PostgreSQL/MySQL/CSV) and participant coding guidelines v1.1. The guidelines explicitly allow AI assistance and pre-Day-1 code written for this hackathon when declared; they specify a clean `FULL_CODE/` submission ZIP and prohibit including the pack's data. See [OFFLINE_FINALS.md](OFFLINE_FINALS.md). Earlier assistant suggestions about grader keyword boxes, other teams' ability, guaranteed food, exact travel time or a finished Streamlit app were speculative and are not adopted as project facts.

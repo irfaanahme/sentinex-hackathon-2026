@@ -1,6 +1,6 @@
 # SENTINEX project context
 
-Updated 18 October 2026. Read [STATE.md](STATE.md) first and [HISTORY.md](HISTORY.md) for the path from selection through submission, demos, apps and hosting. This is the portable public handoff; never put passwords or identity documents here.
+Updated 29 October 2026. Read [STATE.md](STATE.md) first, [OFFLINE_FINALS.md](OFFLINE_FINALS.md) for the newly supplied B1 dataset and rules, and [HISTORY.md](HISTORY.md) for the path from selection through submission, demos, apps and hosting. This is the portable public handoff; never put passwords or identity documents here.
 
 ## Team, event and applications
 
@@ -13,7 +13,7 @@ SENTINEX (TEAM-001130): portal team owner and PPT leader Aswini Lakshya; members
 
 The signed-in InnoSmart participant portal confirmed both statuses on 18 October. It shows 105 applications across all 12 problem statements, not counts for these entries. It does not offer other teams' decks. Public search found two related code projects but no verifiable same-problem competitor PPTX: [Medi-Shield](https://github.com/TanishNain/medi-shield) and [FormGuard](https://github.com/mdmehtabalam83098-hue/Smart-Data-Masking-System-for-PII-Protection). Neither is confirmed as an InnoSmart entry.
 
-The [official event page](https://innosmart.in/ics/2026/MegaHackathon-Oct26/) listed applications closing 18 October, AI screening on 20 October, shortlist on 21 October and finale 30–31 October 2026 at ANITS, Visakhapatnam. Recheck live dates before acting. A separate six-slide template mentions no pre-built code, CPU/supplied-data rules and a kickoff repository; applicability to the two seven-slide tracks is unresolved. Preserve this distinction rather than assuming permission or prohibition.
+On 29 October the live portal marked **MaskGate qualified/payable** and attached the official B1 pack and coding guidelines; MedSafe remained submitted/applied without phase documents. The organizer's new guidelines permit pre-developed code written for this hackathon and AI tools when disclosed. The old six-slide-template uncertainty is superseded for this event; see [OFFLINE_FINALS.md](OFFLINE_FINALS.md) for the exact submission structure and schedule. The portal still showed payment required for MaskGate.
 
 ## Submitted decks and demos
 
