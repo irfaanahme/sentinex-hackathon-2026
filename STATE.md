@@ -15,7 +15,7 @@ Team SENTINEX (TEAM-001130); MaskGate / Problem 11 / offline B1 is the confirmed
 - Clean-clone package: outer deliverables/TEAM-001130_B1.zip; finals commit `0e327aa`. Fresh cached-only dependency installation and checks passed in a path containing spaces, with external network denied. ZIP retains hidden .git and passed extraction/Git checks.
 - Matching Apple Silicon offline recovery cache is separate in outer deliverables/MaskGate_Offline_Recovery_arm64 (48 wheels, 26.3 MB). Python 3.12/PostgreSQL 16 must already be installed; this is not a universal installer. Another-Mac rehearsal remains pending.
 
-- Optional Google login code is saved/tested; local login stays offline. Google Cloud MaskGate project created; consent-policy agreement awaits user confirmation. No client ID/live Google login yet. Continue the open Chrome setup, then configure and test real linking/login.
+- Optional Google login code is saved/tested; local login stays offline. Google Cloud MaskGate project created; consent policy accepted with permission. Localhost Web client form prepared; credential creation awaits action-time confirmation. No client ID/live Google login yet. Continue Chrome, configure and test real linking/login.
 
 ## Rules and remaining actions
 
