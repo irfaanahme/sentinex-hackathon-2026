@@ -1,5 +1,13 @@
 # Offline hackathon handoff — current update 30 October 2026
 
+## 30 October 2026 — fully offline authentication release
+
+The user chose local-only authentication for the offline event. Removed Google sign-in, its routes/interface/configuration and Google-specific dependencies from finals MaskGate. Existing local accounts, keys and source databases were preserved; the unused external Cloud client was not deleted. No Google setup or linking is pending.
+
+Finals source is committed locally as `a96c422` in the separate `maskgate-finals` repository, with no remote. A fresh offline runtime install passed real three-role workflows on both databases, 54,190 evaluation assertions, 83 backend comparisons and full source equality. A fresh offline development install passed **140 tests plus 10 subtests**; the decrease retires provider-specific tests. Frontend checks and runtime/development dependency audits passed. Both Mac caches now include all 42 pinned runtime/development wheels; Intel resolved offline but actual Intel execution remains unverified.
+
+Rebuilt the code-only `deliverables/TEAM-001130_B1.zip` and the separate private transfer kit, including updated setup instructions and checksum manifests. The kit is for the team only, not portal code upload or public sharing. Python 3.12/PostgreSQL 16 must be installed beforehand. Actual destination-Mac reboot/offline rehearsal and live workspace policy/account preparation remain pending. Saved locally; no public push.
+
 ## Latest verified portal changes — 30 October
 
 The signed-in MaskGate application now shows **Qualified / Paid**. The 29 October payment notification confirms INR 1,003 received. The earlier unpaid status below is historical. Private payment references are intentionally omitted.
