@@ -12,7 +12,7 @@ Team SENTINEX (TEAM-001130); MaskGate / Problem 11 / offline B1 is the confirmed
 - Development benchmark: 98.75% precision, 100% recall (one conservative branch-date false positive); 54,190/54,190 policy-related assertions and 83/83 backend checks passed. All source rows unchanged. Team labels, not organizer ground truth or blind testing.
 - A security review found prior Admin results could remain after logout; fixed by document replacement and cross-tab account-change notification. Real same-tab and cross-tab browser regressions passed. This is not a universal security guarantee.
 - New seven-slide L1 PPT: outer deliverables/MaskGate_B1_FINALS.pptx, with PDF preview. Old Round 1 PPTs/videos remain historical.
-- Clean-clone package: outer deliverables/TEAM-001130_B1.zip; finals commit `4831f43`. Fresh dependency installation and checks passed in a path containing spaces.
+- Clean-clone package: outer deliverables/TEAM-001130_B1.zip; finals commit `bfbca4b`. Fresh dependency installation and checks passed in a path containing spaces.
 - Mac setup, judge explanation, limitations and code-rule evidence are in the finals README and FULL_CODE/docs/. Prepared for another Mac, but that machine has not yet been rehearsed.
 
 ## Rules and remaining actions
