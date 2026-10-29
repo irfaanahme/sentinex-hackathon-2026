@@ -8,12 +8,14 @@ Team SENTINEX (TEAM-001130); MaskGate / Problem 11 / offline B1 is the confirmed
 - A separate Git repository, `maskgate-finals/` beside this preparation checkout, contains the focused finals implementation. All code is under FULL_CODE; this public preparation repository does not contain the finals code.
 - Uses the official 9-table, 120-field, 129,260-row bank pack with real SQLite and PostgreSQL readers. Organizer data stays ignored and outside the code ZIP.
 - Working scanner, reviewed policies, server-owned roles, query/role comparison with field explanations, bounded masked CSV, four live access checks, source fingerprints, metadata audit and downloadable aggregate evidence.
-- Final check: 136 Python tests and 10 subtests passed, including actual PostgreSQL permissions; Python and frontend lint/format passed; runtime/development/frontend dependency audits found no known vulnerabilities.
+- Final check: 155 Python tests and 10 subtests passed, including actual PostgreSQL permissions; Python and frontend lint/format passed; runtime/development/frontend dependency audits found no known vulnerabilities.
 - Development benchmark: 98.75% precision, 100% recall (one conservative branch-date false positive); 54,190/54,190 policy-related assertions and 83/83 backend checks passed. All source rows unchanged. Team labels, not organizer ground truth or blind testing.
 - A security review found prior Admin results could remain after logout; fixed by document replacement and cross-tab account-change notification. Real same-tab and cross-tab browser regressions passed. This is not a universal security guarantee.
 - New seven-slide L1 PPT: outer deliverables/MaskGate_B1_FINALS.pptx, with PDF preview. Old Round 1 PPTs/videos remain historical.
-- Clean-clone package: outer deliverables/TEAM-001130_B1.zip; finals commit `383f664`. Fresh cached-only dependency installation and checks passed in a path containing spaces, with external network denied. ZIP retains hidden .git and passed extraction/Git checks.
-- Matching Apple Silicon offline recovery cache is separate in outer deliverables/MaskGate_Offline_Recovery_arm64 (42 wheels, 21.6 MB). Python 3.12/PostgreSQL 16 must already be installed; this is not a universal installer. Another-Mac rehearsal remains pending.
+- Clean-clone package: outer deliverables/TEAM-001130_B1.zip; finals commit `0e327aa`. Fresh cached-only dependency installation and checks passed in a path containing spaces, with external network denied. ZIP retains hidden .git and passed extraction/Git checks.
+- Matching Apple Silicon offline recovery cache is separate in outer deliverables/MaskGate_Offline_Recovery_arm64 (48 wheels, 26.3 MB). Python 3.12/PostgreSQL 16 must already be installed; this is not a universal installer. Another-Mac rehearsal remains pending.
+
+- Optional Google login code is saved/tested; local login stays offline. Google Cloud MaskGate project created; consent-policy agreement awaits user confirmation. No client ID/live Google login yet. Continue the open Chrome setup, then configure and test real linking/login.
 
 ## Rules and remaining actions
 
