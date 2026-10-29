@@ -1,5 +1,11 @@
 # SENTINEX project context
 
+## 30 October — live workspace prepared
+
+Existing local Admin sign-in succeeded in Chrome. Reviewed and saved all 120 fields independently for SQLite and PostgreSQL, correcting the conservative branch-opening-date tag to PUBLIC. Recorded both baselines, ran three-role card previews and four live protection checks on each backend, then verified all 129,260 rows per backend unchanged. Real restricted-account browser sign-ins still need user-created Support/Analyst credentials; the account form is open and the user was asked to enter new passwords personally.
+
+Found and fixed a stale scan-summary display on backend changes; old scan responses are also guarded against a different catalogue. Frontend checks and the real browser switch check passed. Saved aggregate evidence in `FULL_CODE/evidence/live-workspace-check.json`. Finals commit is now `773dd0c`; source ZIP and private kit rebuilt and verified. These remain local-only. User confirmed the other Mac is available and Apple Silicon; transfer/open-in-Codex confirmation and that machine’s offline reboot rehearsal are pending. No broader completion claim.
+
 ## 30 October 2026 — fully offline authentication release
 
 The user chose local-only authentication for the offline event. Removed Google sign-in, its routes/interface/configuration and Google-specific dependencies from finals MaskGate. Existing local accounts, keys and source databases were preserved; the unused external Cloud client was not deleted. No Google setup or linking is pending.
