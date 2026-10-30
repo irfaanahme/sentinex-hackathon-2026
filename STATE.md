@@ -3,6 +3,8 @@
 Updated: 30 October 2026, Asia/Kolkata.
 SENTINEX TEAM-001130: MaskGate / Problem 11 / offline B1 is Qualified / Paid. MedSafe is not confirmed qualified.
 
+Start with [MASKGATE_EXPLAINED.md](MASKGATE_EXPLAINED.md) to understand and rehearse the project.
+
 ## Current finished transfer release
 
 - Finals source: separate local `maskgate-finals/` Git repository, commit `238aac1`; clean checkout, no remote/public push. All submitted code is under FULL_CODE.
@@ -33,4 +35,4 @@ SENTINEX TEAM-001130: MaskGate / Problem 11 / offline B1 is Qualified / Paid. Me
 2. Restart THAT laptop, disconnect internet, demonstrate both backends and real roles, rejected requests and source equality. Current-Mac tests do not prove destination execution.
 3. Refresh permitted screenshots/slides, confirm organizer requirements at orientation, rebuild source ZIP after on-site changes and obey code freeze.
 
-Context and source are saved locally; public preparation repo excludes finals source and the private kit. See OFFLINE_FINALS.md and references/SOURCES.md for official evidence.
+This public update contains current context and the beginner guide; finals source and the private kit stay separate and private. See OFFLINE_FINALS.md and references/SOURCES.md for official evidence.

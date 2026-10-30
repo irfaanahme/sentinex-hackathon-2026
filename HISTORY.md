@@ -1,5 +1,11 @@
 # SENTINEX project history and decision trail
 
+## 30 October — beginner explanation and public repository refresh
+
+After delivery of the portable finals kit, the user said they felt unfamiliar with the project and asked for an explanation and a GitHub update. Added MASKGATE_EXPLAINED.md covering the problem, roles, scanner, reviewed policies, request path, technologies, source preservation, test interpretation, limitations and a practical learning/demo sequence. Refreshed README, HOME_START, the offline handoff and track context so the old public/hosted apps cannot be mistaken for the private finals implementation.
+
+Finals checkpoint remains 238aac1 with 158 tests plus 10 subtests and a passing exact-kit offline rehearsal. No application code or behavior changed in this documentation pass. Public synchronization includes explanations/history and official reference notes; it excludes finals source, organizer data, runtime secrets and the private transfer kit. User passwords are not in the guide. Actual contributions and AI assistance must be described honestly; team understanding and the destination-device rehearsal remain practical preparation work.
+
 ## 30 October — live workspace prepared
 
 Existing local Admin sign-in succeeded in Chrome. Reviewed and saved all 120 fields independently for SQLite and PostgreSQL, correcting the conservative branch-opening-date tag to PUBLIC. Recorded both baselines, ran three-role card previews and four live protection checks on each backend, then verified all 129,260 rows per backend unchanged. Real restricted-account browser sign-ins still need user-created Support/Analyst credentials; the account form is open and the user was asked to enter new passwords personally.

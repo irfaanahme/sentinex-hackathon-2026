@@ -2,7 +2,13 @@
 
 Repository: https://github.com/irfaanahme/sentinex-hackathon-2026
 
-## First time on your Mac
+## Which project you are opening
+
+This public repository contains preparation history, earlier apps and current explanatory documentation. Start with [MASKGATE_EXPLAINED.md](MASKGATE_EXPLAINED.md). The finals source, official dataset and offline transfer kit are private and are not installed by cloning this repository.
+
+To run the current finals MaskGate, obtain the private `MaskGate_Private_Transfer_2026-10-30.zip` from your teammate. Extract it and use the matching Mac or Windows Setup → View logins → Start launchers. Each installation generates its own accounts. Read its START_HERE.txt for prerequisites; run a restart/offline rehearsal on the actual laptop. Do not copy another computer's live environment or credentials.
+
+## First time opening the public preparation repository
 
 Open Terminal in the folder where you keep projects:
 
@@ -13,7 +19,7 @@ cd sentinex-hackathon-2026
 
 Open this folder in Codex or Claude Code. Start with this message:
 
-> Read AGENTS.md, STATE.md, PROJECT_CONTEXT.md and HISTORY.md, then the two selected track contexts. Continue from the recorded next action and verify current organizer rules before using advance code at the finale.
+> Read AGENTS.md, STATE.md, PROJECT_CONTEXT.md and HISTORY.md, then MASKGATE_EXPLAINED.md and the relevant track context. Continue from the recorded next action and verify current organizer rules before using advance code at the finale.
 
 No coding runtime is needed just to read the context or open the Word and PowerPoint files. Public cloning needs no GitHub login; pushing changes requires signing into your GitHub account on the Mac.
 
@@ -21,7 +27,7 @@ No coding runtime is needed just to read the context or open the Word and PowerP
 
 - `submissions/*REVIEWED_v2.pptx`: the two submitted seven-slide PPTX copies.
 - `demos/`: matching silent, captioned videos.
-- `apps/`: current working app code, public/synthetic CSVs, tests and hosting instructions.
+- `apps/`: earlier working app code, public/synthetic CSVs, tests and hosting instructions; not the private finals release.
 - `demo-prototypes/`: earlier prototypes used in the slide videos.
 - `Our Hackathon Choices.docx`: the short teammate-facing explanation.
 - `Hackathon Decision Report.docx` and `DECISION_REPORT.md`: detailed rationale.

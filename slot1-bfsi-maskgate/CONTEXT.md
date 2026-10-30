@@ -1,5 +1,11 @@
 # MaskGate context
 
+## Current release on 30 October 2026
+
+The ready-to-transfer finals source is the separate private `maskgate-finals` repository at `238aac1`. It uses real SQLite/PostgreSQL on the organizer's 129,260 synthetic records. Local demo accounts and reviewed policies are prepared; Google sign-in is removed. The full suite passed 158 tests plus 10 subtests. The exact private kit passed fresh installation, repeat setup, database restart and three-role HTTP checks with external internet blocked on the development Apple Silicon Mac. Windows/Intel compatibility and dependency checks passed, but actual execution on those machines remains to be rehearsed.
+
+Use [STATE.md](../STATE.md) for current release files and remaining work, and [MASKGATE_EXPLAINED.md](../MASKGATE_EXPLAINED.md) to understand the application. The public `apps/` code and hosted links are older implementations. Finals source, organizer data, credentials and the private transfer kit remain outside this public repository. Earlier sections below are dated history and may describe steps that are now complete.
+
 ## 30 October — live workspace prepared
 
 Existing local Admin sign-in succeeded in Chrome. Reviewed and saved all 120 fields independently for SQLite and PostgreSQL, correcting the conservative branch-opening-date tag to PUBLIC. Recorded both baselines, ran three-role card previews and four live protection checks on each backend, then verified all 129,260 rows per backend unchanged. Real restricted-account browser sign-ins still need user-created Support/Analyst credentials; the account form is open and the user was asked to enter new passwords personally.

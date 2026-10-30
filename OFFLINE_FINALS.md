@@ -1,5 +1,11 @@
 # Offline hackathon handoff — current update 30 October 2026
 
+## Current release on 30 October 2026
+
+The ready-to-transfer finals source is the separate private `maskgate-finals` repository at `238aac1`. It uses real SQLite/PostgreSQL on the organizer's 129,260 synthetic records. Local demo accounts and reviewed policies are prepared; Google sign-in is removed. The full suite passed 158 tests plus 10 subtests. The exact private kit passed fresh installation, repeat setup, database restart and three-role HTTP checks with external internet blocked on the development Apple Silicon Mac. Windows/Intel compatibility and dependency checks passed, but actual execution on those machines remains to be rehearsed.
+
+Use [STATE.md](STATE.md) for current release files and remaining work, and [MASKGATE_EXPLAINED.md](MASKGATE_EXPLAINED.md) to understand the application. The public `apps/` code and hosted links are older implementations. Finals source, organizer data, credentials and the private transfer kit remain outside this public repository. Earlier sections below are dated history and may describe steps that are now complete.
+
 ## 30 October 2026 — fully offline authentication release
 
 The user chose local-only authentication for the offline event. Removed Google sign-in, its routes/interface/configuration and Google-specific dependencies from finals MaskGate. Existing local accounts, keys and source databases were preserved; the unused external Cloud client was not deleted. No Google setup or linking is pending.
@@ -69,7 +75,7 @@ The organizer PDF explicitly allows AI coding assistants, APIs, agents and cloud
 
 The final code deliverable is one ZIP named `teamID_psID.zip` made from a clean Git clone, with the team's own `README.md` and all code inside `FULL_CODE/`. BFSI has **no `submission/` prediction file**. Include `.env.example`, schema/migrations, dependency lockfile, meaningful tests, setup/test commands, architecture, AI/prebuilt-code disclosure and limitations. Exclude the organizer pack, database files/SQL dumps, real `.env`, secrets, caches, virtual environments and build output. Run a formatter/linter and dependency audit. The organizers will announce the upload time/flow.
 
-## What the current MaskGate app can and cannot yet show
+## Historical comparison of the earlier app before the finals build
 
 The existing [`apps/maskgate/`](apps/maskgate/) imports a single CSV at a time into its own SQLite and DuckDB copies, proposes column tags, requires admin approval and masks returned rows for server-side roles. It can theoretically ingest the organizer's CSVs one by one (the largest is 100,000 rows / 16 MB, at its current limits), but this has **not been load-tested** and would duplicate data on the free host. It **does not yet connect to the supplied SQLite database as a target**, preserve the nine-table relationships, or support PostgreSQL/MySQL. Its current scanner depends heavily on generic field names and simple value patterns; it will miss abbreviations (`cust_nm`, `mob_no`, `pan_no`, `col_7`), nested/free-text identifiers and some finance fields unless policies are reviewed. It should not be presented as already satisfying the full official B1 challenge.
 
